@@ -1,0 +1,161 @@
+Welcome to Scheme 48 0.47  *** Distributed System 2.11 on plantain ***
+Built by allen on Sun Mar 22 14:28:55 CST 1998.
+Copyright (c) 1993, 1994 by Richard Kelsey and Jonathan Rees.
+Copyright (c) 1996 by NEC Research Institute, Inc.
+Please report bugs to scheme-48-bugs@martigny.ai.mit.edu.
+Type ,? (comma question-mark) for help.
+> > /home/allen/thesis/implementation/ds.mod 
+> [ds
+/home/allen/thesis/implementation/config.scm /home/allen/thesis/implementation/distrib.scm /home/allen/thesis/implementation/mailbox.scm /home/allen/thesis/implementation/utils.scm /home/allen/thesis/implementation/mail.scm /home/allen/thesis/implementation/objects.scm /home/allen/thesis/implementation/stats.scm /home/allen/thesis/implementation/logging.scm /home/allen/thesis/implementation/debug.scm /home/allen/thesis/implementation/tests.scm /home/allen/thesis/implementation/misc.scm /home/allen/thesis/implementation/usage-table.scm /home/allen/thesis/implementation/quasi.scm /home/allen/thesis/implementation/processes.scm ~/lib/scm/mailbox.scm 
+
+Undefined: (*algorithm* update-local-load server receive-requests-primitive make-receive-requests-token client-receive-requests)
+]
+> ds> /home/allen/thesis/implementation/token.scm 
+ds> starting network daemon for 11
+ spawning workstation threads
+starting network daemon for 22
+ spawning workstation threads
+starting network daemon for 33
+ spawning workstation threads
+starting network daemon for 44
+ spawning workstation threads
+starting network daemon for 55
+ spawning workstation threads
+starting network daemon for 66
+ spawning workstation threads
+starting network daemon for 77
+ spawning workstation threads
+starting network daemon for 88
+ spawning workstation threads
+starting network daemon for 99
+ spawning workstation threads
+starting network daemon for 1010
+ spawning workstation threads
+starting network daemon for 1111
+ spawning workstation threads
+starting network daemon for 1212
+ spawning workstation threads
+starting network daemon for 1313
+ spawning workstation threads
+starting network daemon for 1414
+ spawning workstation threads
+Ring initialized
+Coordinator elected 14
+Continuous logging started
+14 spawning coordinator threads
+New token generated
+Token generated
+'#{Proxy 0 238}
+ds> test start time: 22838
+all processes created
+time: 426733
+14: has message(s)
+jobs: (1001 1004)
+load: 2.33003
+free memory: 32
+number of remote jobs: 0
+	usage table
+13: mailbox empty
+jobs: ()
+load: -8.23517e-32
+free memory: 32
+number of remote jobs: 2
+	usage table
+12: mailbox empty
+jobs: ()
+load: 0.798147
+free memory: 32
+number of remote jobs: 0
+	usage table
+11: has message(s)
+jobs: (1046 1041 1039 1036 1033)
+load: 5.83812e+181
+free memory: 32
+number of remote jobs: 0
+	usage table
+10: mailbox empty
+jobs: ()
+load: 0.914011
+free memory: 32
+number of remote jobs: 0
+	usage table
+9: mailbox empty
+jobs: ()
+load: 0.995558
+free memory: 32
+number of remote jobs: 0
+	usage table
+8: mailbox empty
+jobs: ()
+load: 0.99204
+free memory: 32
+number of remote jobs: 0
+	usage table
+7: mailbox empty
+jobs: ()
+load: 0.00925596
+free memory: 32
+number of remote jobs: 1
+	usage table
+6: mailbox empty
+jobs: ()
+load: 0.998497
+free memory: 32
+number of remote jobs: 1
+	usage table
+5: mailbox empty
+jobs: ()
+load: 0.994073
+free memory: 32
+number of remote jobs: 2
+	usage table
+4: mailbox empty
+jobs: ()
+load: 0.0202155
+free memory: 32
+number of remote jobs: 0
+	usage table
+3: mailbox empty
+jobs: ()
+load: 0.00919773
+free memory: 32
+number of remote jobs: 2
+	usage table
+2: mailbox empty
+jobs: (1007 1009 1034)
+load: 4.53879
+free memory: 32
+number of remote jobs: 0
+	usage table
+1: mailbox empty
+jobs: ()
+load: 1.22846e-06
+free memory: 32
+number of remote jobs: 0
+	usage table
+Writing user log
+Making gnuplot data. . .Be patient
+Writing /tmp/data14.ds
+Writing /tmp/data13.ds
+Writing /tmp/data12.ds
+Writing /tmp/data11.ds
+Writing /tmp/data10.ds
+Writing /tmp/data9.ds
+Writing /tmp/data8.ds
+Writing /tmp/data7.ds
+Writing /tmp/data6.ds
+Writing /tmp/data5.ds
+Writing /tmp/data4.ds
+Writing /tmp/data3.ds
+Writing /tmp/data2.ds
+Writing /tmp/data1.ds
+Writing /tmp/max-unfair-data.ds
+Writing /tmp/avg-load-data.ds
+Writing /tmp/stddev-data.ds
+Writing message counts to /tmp/msg-type-counts.ds
+Writing message sizes to /tmp/msg-type-sizes.ds
+Writing hop count stats to /tmp/process-hop-counts.ds
+
+Error: exception
+       (car '())
+1 ds> 

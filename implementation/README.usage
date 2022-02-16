@@ -1,0 +1,32 @@
+To start the DS on multiple processors, use the start script to start
+the remote schemes.  After the remote schemes start, they will log
+their port numbers in the file /tmp/comrades.
+
+In the local scheme (the one you will type to), run commissar as
+follows:
+
+	(commissar '(("hostname" . port) . . . ))
+
+This will allow communication between the many scheme processes.
+
+To start the distributed system, type
+
+	(start-ds num-processors migrate-procs?)
+
+where num-processors is the number of remote schemes you started and
+migrate-procs? is a boolean for whether or not you want to processes
+to be migrated after they have started executing.
+
+To show the status of the DS at any time, use
+
+	(show-stats)
+
+To start a new ds-process, do
+
+	(create-process processor-id ds-process load mem)
+
+where processor-id is the numeric id of the processor on which the
+process should be created, ds-process is the scheme procedure to run
+on the remote machine, load is the load the ds-process will add to the
+remote processor (if simulation), and mem is the amount of memory the
+process will require to run.

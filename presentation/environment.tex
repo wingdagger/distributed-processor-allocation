@@ -1,0 +1,97 @@
+\documentclass{article}
+%\usepackage{times}
+\usepackage{xspace}
+\usepackage{graphics}
+\usepackage{here}
+\usepackage{bar}
+\usepackage{shadow}
+\usepackage{boxedminipage}
+\usepackage{tabularx}
+
+
+\newcommand{\envtbl}[5]{
+\begin{center}
+%\textbf{#6}
+\textbf{#1}
+\end{center}
+
+\begin{tabularx}{\linewidth}{|X|X|X|X|} \hline
+	\textbf{Environment} & \textbf{Q-learning} & \textbf{Centralized} & \textbf{Token} \\ \hline
+	#2
+\end{tabularx}
+
+\begin{center}
+\textbf{#3}
+\end{center}
+
+\begin{tabularx}{\linewidth}{|X|X|X|X|} \hline
+	\textbf{Environment} & \textbf{Q-learning} & \textbf{Centralized} & \textbf{Token} \\ \hline
+	#4
+\end{tabularx}
+
+\vspace{1em}
+\line(1,0){50} \\
+#5
+}
+
+
+\begin{document}
+
+\envtbl{Average Load Average (Average Standard Deviation)}
+{	Simulation  & 0.926 (0.471) & 0.913 (0.630) & 0.924 (0.340)  \\ \hline
+	Quasi-simulation  & 0.853 (0.427) & 1.644 (0.796) & 2.180 (1.851) \\ \hline
+	Full implementation & 0.842 (0.584) & 0.562 (0.194) & 1.045 (0.421) \\ \hline}
+{Average Maximum Unfairness}
+{	Simulation  & 1.380 & 1.842 & 1.029  \\ \hline
+	Quasi-simulation  & 1.397 & 2.609 & 5.914 \\ \hline
+	Full implementation & 1.781 & 0.590 & 1.366 \\ \hline}
+{$*$ Average of 3 iterations.  Quasi-simulation.  cpu-intensive process types.  30
+processes.}
+%{Environment stats.  Data shown for test A}
+
+
+\clearpage
+
+\envtbl{Average Load Average (Average Standard Deviation)}
+{	Simulation  & 0.002 (0.003) & 0.003 (0.004) & 0.002 (0.003)  \\ \hline
+	Quasi-simulation  & 0.000 (0.000) & 0.156 (0.143) & 0.059 (0.055) \\ \hline
+	Full implementation & 0.109 (0.037) & 0.128 (0.063) & 0.326 (0.121) \\ \hline}
+{Average Maximum Unfairness}
+{	Simulation  & 0.007 & 0.010 & 0.007  \\ \hline
+	Quasi-simulation  & 0.000 & 0.331 & 0.163 \\ \hline
+	Full implementation & 0.127 & 0.207 & 0.376 \\ \hline}
+{$*$ Average of 3 iterations.  Quasi-simulation.  highly interactive process
+types.  30 processes.}
+%{Environment stats.  Data shown for test B}
+
+
+\clearpage
+
+\envtbl{Average Load Average (Average Standard Deviation)}
+{	Simulation  & 0.287 (0.225) & 0.274 (0.290) & 0.180 (0.137)  \\ \hline
+	Quasi-simulation  & 2.370 (1.156) & 3.889 (2.100) & 2.827 (1.615) \\ \hline
+	Full implementation & 0.237 (0.097) & 0.254 (0.119) & 0.597 (0.300) \\ \hline}
+{Average Maximum Unfairness}
+{	Simulation  & 0.601 & 0.809 & 0.328  \\ \hline
+	Quasi-simulation  & 3.560 & 6.147 & 5.217 \\ \hline
+	Full implementation & 0.327 & 0.366 & 1.017 \\ \hline}
+{$*$ Average of 3 iterations.  Quasi-simulation.  disk-intensive process
+types.  30 processes.}
+%{Environment stats.  Data shown for test C}
+
+
+\clearpage
+
+\envtbl{Average Load Average (Average Standard Deviation)}
+{	Simulation  & 0.305 (0.241) & 0.301 (0.291) & 0.251 (0.198)  \\ \hline
+	Quasi-simulation  & 1.361 (0.840) & 1.968 (0.671) & 2.380 (1.488) \\ \hline
+	Full implementation & 0.472 (0.251) & 0.386 (0.147) & 0.721 (0.319) \\ \hline}
+{Average Maximum Unfairness}
+{	Simulation  & 0.700 & 0.860 & 0.600  \\ \hline
+	Quasi-simulation  & 2.513 & 1.970 & 4.578 \\ \hline
+	Full implementation & 0.810 & 0.460 & 1.030 \\ \hline}
+{$*$ Average of 3 iterations.  Quasi-simulation.  Mix of 3 process types.  50
+processes.}
+%{Environment stats.  Data shown for test D}
+
+\end{document}

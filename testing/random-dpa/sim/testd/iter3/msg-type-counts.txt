@@ -1,0 +1,13 @@
+Message Type Counts for /home/stu93/allen/thesis/testing/random-dpa/sim/testd/iter3
+
+
+Message Type	 Count
+------------	 -----
+accept	50
+add-processor	15
+create	50
+done	50
+log	253
+request	68
+shutdown	5
+update	50

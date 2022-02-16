@@ -1,0 +1,298 @@
+\documentclass{article}
+\usepackage{fullpage}
+\usepackage{xspace}
+\usepackage{educ-homework}
+
+\newcommand{\UNIX}{\textsc{Unix}\xspace}
+
+\setcounter{secnumdepth}{0}
+\name{Joshua S. Allen}
+
+
+\begin{document}
+
+\LARGE
+\noindent \textbf{Masters Thesis Proposal:} \\
+\noindent \textbf{Distributed Processor Allocation Algorithms} \\
+\Large
+\noindent {by Joshua S. Allen}
+
+\normalsize
+\vspace{1em}
+
+\section{Introduction}
+
+% Say something about distributed systems??
+
+A processor allocation algorithm is a way of determining the best processor
+within a distributed system on which to run a process.  Say, for example,
+that machine $A$ has only one processor and its load average is very high.
+The user of machine $A$ now wants to run a new process.  However, since its
+load average is so high, machine $A$ decides to give the process to another
+machine.  Hence, a processor allocation algorithm is invoked to determine
+the best processor to which to give the process.  An alteration of this
+approach is to allow processes to migrate dynamically even after they have
+started executing.
+
+Other than automatically offloading or migrating processes within a
+distributed, another use of a processor allocation algorithms could be in a
+distributed implementation of the Unix utility \texttt{top}.  In the
+business world, distributed processor allocation algorithms could be used to
+assign tasks of a project to employees.
+
+
+
+\section{Goal} 
+
+The goal of this masters thesis is to develop fair processor allocation in
+distributed systems using a distributed algorithm.  Three algorithms will be
+designed and implemented using kali-scheme, a distributed implementation of
+scheme48.  Various information will be logged during testing of the system.
+At the end of testing, some of the logged information will be plotted for
+statistical analysis, and a comparison of the algorithms will be given.
+
+\section{Criteria}
+
+In general, distributed systems can be compared using the following
+criteria \cite{Tanenbaum}.  Distributed processor allocation is no
+exception.
+
+
+\begin{itemize}
+	
+  \item Transparency
+
+	The distributed system should provide services such that the user is
+	unaware of where within the system that the services take place.
+	The system should function, at least from the user's perspective, as
+	a single unit. 
+
+
+  \item Flexibility
+
+	The distributed system should be designed in such a way that it is
+	easily changeable and customizable.
+
+  \item Reliability
+
+	The distributed system should provide consistency and should
+	function even in the presence of failures when possible.  In other
+	words the distributed system should be fault tolerant.  When
+	possible, failures should go unnoticed by the user.
+
+  \item Performance
+
+	The distributed system should provide a reasonable and consistent
+	response time to users and in general the system should provide a
+	level of performance not less than that of a stand-alone machine.
+	In other words, the distributed system should not penalize
+	performance, and when possible it should enhance it.
+
+  \item Scalability
+
+	The design of a distributed system should be such that it functions
+	appropriately and efficiently no matter how many machines comprise
+	it.  
+
+\end{itemize}
+
+
+Given a collection of processors, each of which can receive external job
+requests, fair processor allocation should be performed for newly incoming
+jobs.  In the case of dynamic process migration, fair processor allocation
+should occur during the lifetime of processes.  The unfairness at time $t$
+can be measured by the maximum difference in jobs between two processors.
+The performance of an allocation method over a time period can be measured
+by the average unfairness over that time period.
+
+However, load alone is not enough to determine the best processor on which
+to offload a process.  From a user point of view, a distributed system
+should offer better than or equal to performance of a stand-alone machine.
+Hence, criteria such as time delay between process creation and initial
+execution is important.  Items that would effect this include hop count of
+messages in the network, whether a binary needs to be migrated across the
+network, etc. 
+
+Another important variable to check when offloading processes is the amount
+of free memory.  If a machine does not have enough free memory to run a new
+process then it would be pointless to try running it there.  Additionally,
+if a machine does have enough free memory but very little of it, then
+performance might be effected due to swapping.  Hence, many factors other
+than load need to be taken into account when determining the best machine on
+which to offload a process and when comparing the performance of processor
+allocation algorithms.
+
+
+Three measurable statistics come to mind when measuring the
+\emph{performance} of a processor allocation algorithm:
+
+\begin{itemize}
+	\item Maximizing CPU utilization (comparison of load averages 
+	over time)
+        \item Minimizing response time (the time elapse from process
+        creation to process execution)
+        \item Minimizing total elapsed time a process requires to finish
+        (the time elapse from process creation to process termination).
+\end{itemize}
+
+\emph{Scalability} can be measured by comparing the results of performance
+measurements of the algorithms running variable sizes of distributed
+systems.
+
+\emph{Fault Tolerance} can be determined by introducing failures into the
+distributed and accessing whether the system continues to perform and, if
+so, if it performs at the same performance levels.
+
+\emph{Flexibility} is not something that can easily be measured and hence a
+descriptive explanation of the features that make an algorithm flexible will
+need to be discussed, such a modularity, ease of use, etc.
+
+\emph{Transparency} also is difficult to measure, so again a descriptive
+explanation of why and how an algorithm is transparent will be given.
+
+
+%\section{Background}
+
+
+\section{Approach}
+
+\subsection{Algorithms}
+
+\subsubsection{Token based Algorithm}
+
+At startup, a logical ring is constructed, where each node in the ring
+represents a processor in the distributed system.  For test purposes the
+coordinator will be the machine on which the user is interacting.  However,
+the coordinator can be elected using an election algorithm.  A single packet
+(the token) is then transmitted with an entry for each processor in the
+system.  The entry will contain the following information: load and amount
+of free memory.
+
+Each time a machine receives the token, it does the following things:
+
+\begin{enumerate}
+  \item The machine updates the token's usage table with its current load
+  and amount of free memory.
+
+  \item If the machine wants to offload a process, it picks the machine with
+  the lowest load that has enough free memory, and migrates the
+  process to that machine.  
+
+  \item The machine forwards the token to the next machine in the logical
+  ring. 
+\end{enumerate}
+
+\subsubsection{Randomized Algorithm}
+
+Each machine maintains a table comprised of values reflecting the last known
+load on each machine, initially all values are zero (neutral).  When a new
+job is introduced to a processor, that processor allocates the job to some
+processor in the system, perhaps itself.  This choice is based on the table
+most of the time and made randomly the rest of the time (parameter $p$).
+
+The table is updated in the following way: When processor $A$ chooses to
+give a job to processor $B$, $A$ sends a request to $B$, which includes
+$A's$ current load.  $B$ updates its table using this information and
+decides whether to accept the job or forward the request to another machine.
+Ultimately, some machine $C$ accepts the request and obtains the job from
+$A$.  The only way a job could bounce around the system indefinitely is for
+new jobs to be introduced to the system faster than the system can send
+messages back and forth between machines.  This is is highly unlikely, thus
+practically there is no indefinite postponement of jobs, although
+theoretically it is possible.  Each machine ($A$ through $C$) updates its
+table using load information passed to it in the request message, which is
+appended to the request as it is forwarded to each machine.  A naive update
+rule is simply to replace old data with new data.  However, a better
+approach might be to use weighted average of the old and new data, perhaps
+incorporating the age of the old data.
+
+
+\subsubsection{Centralized Algorithm}
+
+For comparison reasons, a centralized version of the algorithm will be
+implemented in addition to the distributed ones.  In the centralized
+algorithm, all process creation requests go through a single machine,
+although they can still originate anywhere.  When a process is offloaded to
+a machine by the coordinator, that machine must return its load average to
+the coordinator.  The same is true when the process finishes.  Hence, the
+coordinator always knows (within time $\epsilon$, defined to be the amount of
+time for a client to respond to the coordinator) the load average on every
+machine in the distributed system.
+
+
+
+\section{Implementation}
+
+The three algorithms will be implemented using kali-scheme, a distributed
+implementation of scheme48 \cite{kali}.  Processors will be simulated
+processors using threads in a single \UNIX process, several \UNIX processes
+on the same physical machine, and several \UNIX processes on multiple
+physical machines.
+
+Initially, threads will be used to simulate processors and then several
+\UNIX processes on multiple physical machines in order to perform more
+realistic tests.  This will be more realistic because network delays and
+actual machine usage patterns can be taken into account.
+
+
+\section{Current Status}
+
+Basic working implementations of all three of the algorithms are complete.
+Currently, all processors and processes in the system are simulated using
+threads within a single process on a single machine.  Logging and simple
+graph generation is implemented so that test results can be easily
+compared.  All three algorithms currently have no fault tolerance and assume
+static allocation at the beginning of process execution.  Only a few
+statistics are currently being logged such as load and amount of free
+memory.
+
+A general outline of the paper is prepared with initial background
+information in place.  Also available is an initial bibliography.
+
+
+\section{Plan for Future Work}
+
+All algorithms will be converted to run on multiple physical machines
+instead of running as threads on a single machine.  Instead of supplying a
+pseudo-load average when creating a process, real load averages will be used
+(perhaps thread loads).  More information will be tracked for statistical
+analysis, including network delays, hop counts, and the amount of time
+between process creation and initial execution.  For the randomized
+algorithm, more update algorithms will be developed in order to provide more
+optimal results.  More data will be plotted for statistical analysis.  All
+of the algorithms will be modified to perform dynamic process migration
+(movement of processes during execution among machines).  Finally, the
+algorithms will be altered to include fault tolerance.
+
+In addition to programming changes made to the algorithms, more test cases
+will be run on the system, varying many variables.  Much analysis will be
+done on the results of the test cases in order to provide comparisons of the
+algorithms, including statistical analysis and commentary based upon the
+work of others and my own thoughts.  
+
+Results from the current implementation of the algorithms, where processors
+and processes are fully simulated will be compared to the final results
+where each processor in the system represents a physical processor.  If
+results differentiate significantly, then an analysis of how the simulation
+could be changed will be provided.  Other test cases will be performed in a
+quasi-simulated environment where some things are simulated, such as
+processes, yet other things are not, such as processors.
+
+Finally, an analysis of efficient ways to offload (static) and migrate
+(dynamic) processes in a distributed system will be given.
+
+
+
+\bibliography{proposal}
+\bibliographystyle{alpha}
+
+\end{document}
+
+
+
+
+
+
+
+
+

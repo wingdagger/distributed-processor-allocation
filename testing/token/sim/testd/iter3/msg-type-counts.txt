@@ -1,0 +1,14 @@
+Message Type Counts for /home/stu93/allen/thesis/testing/token/sim/testd/iter3
+
+
+Message Type	 Count
+------------	 -----
+accept	50
+add-processor	15
+coordinator	4
+create	50
+done	50
+log	280
+request	50
+shutdown	4
+token	930

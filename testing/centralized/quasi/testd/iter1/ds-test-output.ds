@@ -1,0 +1,75 @@
+Welcome to Scheme 48 0.47  *** Distributed System 2.11 on plantain ***
+Built by allen on Sun Mar 22 14:28:55 CST 1998.
+Copyright (c) 1993, 1994 by Richard Kelsey and Jonathan Rees.
+Copyright (c) 1996 by NEC Research Institute, Inc.
+Please report bugs to scheme-48-bugs@martigny.ai.mit.edu.
+Type ,? (comma question-mark) for help.
+> > /home/allen/thesis/implementation/ds.mod 
+> [ds
+/home/allen/thesis/implementation/config.scm /home/allen/thesis/implementation/distrib.scm /home/allen/thesis/implementation/mailbox.scm /home/allen/thesis/implementation/utils.scm /home/allen/thesis/implementation/mail.scm /home/allen/thesis/implementation/objects.scm /home/allen/thesis/implementation/stats.scm /home/allen/thesis/implementation/logging.scm /home/allen/thesis/implementation/debug.scm /home/allen/thesis/implementation/tests.scm /home/allen/thesis/implementation/misc.scm /home/allen/thesis/implementation/usage-table.scm /home/allen/thesis/implementation/quasi.scm /home/allen/thesis/implementation/processes.scm ~/lib/scm/mailbox.scm 
+
+Undefined: (*algorithm* update-local-load server receive-requests-primitive make-receive-requests-token client-receive-requests)
+]
+> ds> /home/allen/thesis/implementation/centralized.scm 
+ds> Begin of make-processor-primitive for id: 0
+starting network daemon for 1
+starting network daemon for 2
+starting network daemon for 3
+starting network daemon for 4
+starting network daemon for 5
+Usage table initialized
+Logging started
+ds> all processes created
+0: mailbox empty
+jobs: ()
+load: 0.
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (113 32 6380)
+	4 (166 32 6389)
+	3 (59 32 6396)
+	2 (101 32 6404)
+	1 (125 32 6408)
+5: mailbox empty
+jobs: ()
+load: -4.41574e-234
+free memory: 32
+number of remote jobs: 0
+	usage table
+4: mailbox empty
+jobs: ()
+load: 1.21441
+free memory: 32
+number of remote jobs: 0
+	usage table
+3: mailbox empty
+jobs: ()
+load: 0.708608
+free memory: 32
+number of remote jobs: 0
+	usage table
+2: mailbox empty
+jobs: ()
+load: 0.467836
+free memory: 32
+number of remote jobs: 0
+	usage table
+1: mailbox empty
+jobs: ()
+load: 1.03403
+free memory: 32
+number of remote jobs: 0
+	usage table
+Writing user log
+Making gnuplot data. . .Be patient
+Writing /tmp/data5.ds
+Writing /tmp/data4.ds
+Writing /tmp/data3.ds
+Writing /tmp/data2.ds
+Writing /tmp/data1.ds
+
+Error: exception
+       #f
+       (< 'nan. 2.25549)
+1 ds> 

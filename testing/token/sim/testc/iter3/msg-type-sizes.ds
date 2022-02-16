@@ -1,0 +1,9 @@
+add-processor	3840
+coordinator	1024
+create	7680
+request	7680
+accept	7680
+done	7680
+token	161280
+log	49152
+shutdown	1280

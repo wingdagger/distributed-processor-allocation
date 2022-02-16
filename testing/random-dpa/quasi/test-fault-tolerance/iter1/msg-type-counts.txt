@@ -1,0 +1,14 @@
+Message Type Counts for /home/stu93/allen/thesis/testing/random-dpa/quasi/test-fault-tolerance/iter1
+
+
+Message Type	 Count
+------------	 -----
+accept	30
+add-processor	15
+create	30
+done	30
+log	480
+remove-processor	4
+request	48
+shutdown	4
+update	30

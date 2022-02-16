@@ -1,0 +1,3 @@
+- Problems with simulation.  Process load is added immediately to the
+processor load, whereas in real life, process load affects system load
+incremently over time.  

@@ -1,0 +1,68 @@
+#!/usr/local/bin/zsh
+
+PS_LOADS=/tmp/all_loads.ps
+PS_UNFAIR=/tmp/all_unfair.ps
+PS_STDDEV=/tmp/all_stddev.ps
+PLOT_INPUT=/tmp/gnuplot.in
+
+# foreach f in *(/);do 
+foreach f in `find $1 -name "iter?" -print`; do
+	# Load Averages
+
+	echo set data style linespoints > $PLOT_INPUT
+	echo set terminal postscript landscape monochrome >> $PLOT_INPUT
+	echo set output \"loads.ps\" >> $PLOT_INPUT
+	echo set xlabel \"time (ms)\" >> $PLOT_INPUT
+	echo set ylabel \"load\" >> $PLOT_INPUT
+	echo set title \"$f : Load Averages over Time\" >> $PLOT_INPUT
+	echo plot \"data1.ds\", \"data2.ds\", \"data3.ds\", \
+		 \"data4.ds\", \"data5.ds\", \"avg-load-data.ds\" \
+		>> $PLOT_INPUT
+
+	# Maximum unfairness data
+
+	echo set output \"max-unfair.ps\" >> $PLOT_INPUT
+	echo set title \"$f : Maximum Unfairness Data over Time\" >> $PLOT_INPUT
+	echo plot \"max-unfair-data.ds\" >> $PLOT_INPUT
+
+	# Std dev data
+
+	echo set output \"stddev-data.ps\" >> $PLOT_INPUT
+	echo set title \"$f : Std Dev Data over Time\" >> $PLOT_INPUT
+	echo plot \"stddev-data.ds\" >> $PLOT_INPUT
+
+	cd $f
+	echo $f >> /tmp/gnuplot.errs
+	gnuplot $PLOT_INPUT 2>> /tmp/gnuplot.errs
+	echo ------ >> /tmp/gnuplot.errs
+	rm -f $PLOT_INPUT
+	echo $f done
+done
+
+# make postscript file of all load files
+echo writing $PS_LOADS
+mpage -4 -P `find $1 -name "loads.ps" -print` >! $PS_LOADS
+
+# make ps file of all unfair data
+echo writing $PS_UNFAIR
+mpage -4 -P `find $1 -name "max-unfair.ps" -print` >! $PS_UNFAIR
+
+# make ps file of all unfair data
+echo writing $PS_STDDEV
+mpage -4 -P `find $1 -name "stddev-data.ps" -print` >! $PS_STDDEV
+
+
+if [ $# -gt 1 ] ; then
+	if [ $2 = "-p" ]; then
+		foreach f in `find . -name "*.ps" -print`; do
+		   echo printing $f
+		   lp -dpsrich $f 2>&1 > /dev/null
+		   if [ $? -gt 0 ] ; then
+		    echo lp failed
+		   fi
+		done
+	else
+		echo \"Bad command line option\";
+	fi
+fi
+

@@ -1,0 +1,310 @@
+%!PS-Adobe-2.0
+%%Creator: gnuplot
+%%DocumentFonts: Helvetica
+%%BoundingBox: 50 50 554 770
+%%Pages: (atend)
+%%EndComments
+/gnudict 40 dict def
+gnudict begin
+/Color false def
+/Solid false def
+/gnulinewidth 5.000 def
+/vshift -46 def
+/dl {10 mul} def
+/hpt 31.5 def
+/vpt 31.5 def
+/M {moveto} bind def
+/L {lineto} bind def
+/R {rmoveto} bind def
+/V {rlineto} bind def
+/vpt2 vpt 2 mul def
+/hpt2 hpt 2 mul def
+/Lshow { currentpoint stroke M
+  0 vshift R show } def
+/Rshow { currentpoint stroke M
+  dup stringwidth pop neg vshift R show } def
+/Cshow { currentpoint stroke M
+  dup stringwidth pop -2 div vshift R show } def
+/DL { Color {setrgbcolor Solid {pop []} if 0 setdash }
+ {pop pop pop Solid {pop []} if 0 setdash} ifelse } def
+/BL { stroke gnulinewidth 2 mul setlinewidth } def
+/AL { stroke gnulinewidth 2 div setlinewidth } def
+/PL { stroke gnulinewidth setlinewidth } def
+/LTb { BL [] 0 0 0 DL } def
+/LTa { AL [1 dl 2 dl] 0 setdash 0 0 0 setrgbcolor } def
+/LT0 { PL [] 0 1 0 DL } def
+/LT1 { PL [4 dl 2 dl] 0 0 1 DL } def
+/LT2 { PL [2 dl 3 dl] 1 0 0 DL } def
+/LT3 { PL [1 dl 1.5 dl] 1 0 1 DL } def
+/LT4 { PL [5 dl 2 dl 1 dl 2 dl] 0 1 1 DL } def
+/LT5 { PL [4 dl 3 dl 1 dl 3 dl] 1 1 0 DL } def
+/LT6 { PL [2 dl 2 dl 2 dl 4 dl] 0 0 0 DL } def
+/LT7 { PL [2 dl 2 dl 2 dl 2 dl 2 dl 4 dl] 1 0.3 0 DL } def
+/LT8 { PL [2 dl 2 dl 2 dl 2 dl 2 dl 2 dl 2 dl 4 dl] 0.5 0.5 0.5 DL } def
+/P { stroke [] 0 setdash
+  currentlinewidth 2 div sub M
+  0 currentlinewidth V stroke } def
+/D { stroke [] 0 setdash 2 copy vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke
+  P } def
+/A { stroke [] 0 setdash vpt sub M 0 vpt2 V
+  currentpoint stroke M
+  hpt neg vpt neg R hpt2 0 V stroke
+  } def
+/B { stroke [] 0 setdash 2 copy exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke
+  P } def
+/C { stroke [] 0 setdash exch hpt sub exch vpt add M
+  hpt2 vpt2 neg V currentpoint stroke M
+  hpt2 neg 0 R hpt2 vpt2 V stroke } def
+/T { stroke [] 0 setdash 2 copy vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke
+  P  } def
+/S { 2 copy A C} def
+end
+%%EndProlog
+%%Page: 1 1
+gnudict begin
+gsave
+50 50 translate
+0.100 0.100 scale
+90 rotate
+0 -5040 translate
+0 setgray
+/Helvetica findfont 140 scalefont setfont
+newpath
+LTa
+840 351 M
+6129 0 V
+840 351 M
+0 4618 V
+LTb
+840 351 M
+63 0 V
+6066 0 R
+-63 0 V
+756 351 M
+(0) Rshow
+840 864 M
+63 0 V
+6066 0 R
+-63 0 V
+756 864 M
+(0.1) Rshow
+840 1377 M
+63 0 V
+6066 0 R
+-63 0 V
+-6150 0 R
+(0.2) Rshow
+840 1890 M
+63 0 V
+6066 0 R
+-63 0 V
+-6150 0 R
+(0.3) Rshow
+840 2403 M
+63 0 V
+6066 0 R
+-63 0 V
+-6150 0 R
+(0.4) Rshow
+840 2917 M
+63 0 V
+6066 0 R
+-63 0 V
+-6150 0 R
+(0.5) Rshow
+840 3430 M
+63 0 V
+6066 0 R
+-63 0 V
+-6150 0 R
+(0.6) Rshow
+840 3943 M
+63 0 V
+6066 0 R
+-63 0 V
+-6150 0 R
+(0.7) Rshow
+840 4456 M
+63 0 V
+6066 0 R
+-63 0 V
+-6150 0 R
+(0.8) Rshow
+840 4969 M
+63 0 V
+6066 0 R
+-63 0 V
+-6150 0 R
+(0.9) Rshow
+840 351 M
+0 63 V
+0 4555 R
+0 -63 V
+840 211 M
+(0) Cshow
+1862 351 M
+0 63 V
+0 4555 R
+0 -63 V
+0 -4695 R
+(50000) Cshow
+2883 351 M
+0 63 V
+0 4555 R
+0 -63 V
+0 -4695 R
+(100000) Cshow
+3905 351 M
+0 63 V
+0 4555 R
+0 -63 V
+0 -4695 R
+(150000) Cshow
+4926 351 M
+0 63 V
+0 4555 R
+0 -63 V
+0 -4695 R
+(200000) Cshow
+5948 351 M
+0 63 V
+0 4555 R
+0 -63 V
+0 -4695 R
+(250000) Cshow
+6969 351 M
+0 63 V
+0 4555 R
+0 -63 V
+0 -4695 R
+(300000) Cshow
+840 351 M
+6129 0 V
+0 4618 V
+-6129 0 V
+840 351 L
+140 2660 M
+currentpoint gsave translate 90 rotate 0 0 M
+(load) Cshow
+grestore
+3904 71 M
+(time \(ms\)) Cshow
+LT0
+6486 4766 M
+("/home/stu93/allen/thesis/testing/centralized/sim/testd/iter3/stddev-data.ds") Rshow
+6570 4766 M
+252 0 V
+933 351 M
+122 813 V
+123 3406 V
+123 0 V
+123 -273 V
+1546 1749 L
+123 0 V
+123 175 V
+123 -463 V
+123 536 V
+122 -353 V
+123 943 V
+123 -126 V
+123 182 V
+123 -796 V
+122 675 V
+123 -232 V
+123 475 V
+123 472 V
+122 -187 V
+123 -671 V
+123 -943 V
+123 -321 V
+123 435 V
+122 325 V
+123 175 V
+123 -317 V
+123 244 V
+124 -927 V
+122 516 V
+123 -203 V
+123 959 V
+123 240 V
+123 -171 V
+122 204 V
+123 -261 V
+123 895 V
+123 -317 V
+5600 1741 L
+122 61 V
+5845 351 L
+123 0 V
+123 0 V
+123 0 V
+123 0 V
+123 0 V
+122 0 V
+123 0 V
+123 0 V
+123 0 V
+6654 4766 D
+933 351 D
+1055 1164 D
+1178 4570 D
+1301 4570 D
+1424 4297 D
+1546 1749 D
+1669 1749 D
+1792 1924 D
+1915 1461 D
+2038 1997 D
+2160 1644 D
+2283 2587 D
+2406 2461 D
+2529 2643 D
+2652 1847 D
+2774 2522 D
+2897 2290 D
+3020 2765 D
+3143 3237 D
+3265 3050 D
+3388 2379 D
+3511 1436 D
+3634 1115 D
+3757 1550 D
+3879 1875 D
+4002 2050 D
+4125 1733 D
+4248 1977 D
+4372 1050 D
+4494 1566 D
+4617 1363 D
+4740 2322 D
+4863 2562 D
+4986 2391 D
+5108 2595 D
+5231 2334 D
+5354 3229 D
+5477 2912 D
+5600 1741 D
+5722 1802 D
+5845 351 D
+5968 351 D
+6091 351 D
+6214 351 D
+6337 351 D
+6460 351 D
+6582 351 D
+6705 351 D
+6828 351 D
+6951 351 D
+stroke
+grestore
+end
+showpage
+%%Trailer
+%%Pages: 1

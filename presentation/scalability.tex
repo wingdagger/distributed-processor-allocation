@@ -1,0 +1,65 @@
+\documentclass{slides}
+%\usepackage{times}
+\usepackage{xspace}
+\usepackage{graphics}
+\usepackage{here}
+\usepackage{bar}
+\usepackage{shadow}
+\usepackage{boxedminipage}
+\usepackage{tabularx}
+\usepackage{portland}
+
+
+
+\begin{document}
+\landscape
+
+
+\title{Scalability}
+\begin{tabularx}{\linewidth}{|X|X|X|X|} \hline
+	\textbf{No.\ Processors} & \textbf{Q-learning} & \textbf{Centralized} & \textbf{Token} \\ \hline
+	1  & $509.246 = 342.024 + 167.222$ & $ 584.473 = 252.833 + 331.639$ 
+		& $ 526.507 = 295.887 + 230.621 $ \\ \hline
+	5  & $95.4852 = 34.187 + 61.299$ & $116.542 = 15.637 + 100.905$ &
+		$165.108 = 53.834 + 111.274 $ \\ \hline
+	14 & $78.512 = 26.491 + 52.026$ & $ 82.825 = 18.174 + 64.651$ & 
+		$202.051 = 43.784 + 158.267$ \\ \hline
+\end{tabularx}
+\vspace{1em}
+\line(1,0){50} \\
+$*$ Average of 3 iterations.  Quasi-simulation.  30 CPU-intensive processes.
+Random creation interval between 0.5 and 10 seconds.
+
+
+\clearpage
+
+\begin{center}
+\textbf{Average Load Average (Average Standard Deviation)}
+\end{center}
+\begin{tabularx}{\linewidth}{|X|X|X|X|} \hline
+	\textbf{No.\ Processors} & \textbf{Q-learning} & \textbf{Centralized} & \textbf{Token} \\ \hline
+	1  & 4.445 (0.0) & 9.269 (0.0) & 6.449 (0.0)  \\ \hline
+	5  & 0.853 (0.427) & 1.644 (0.796) & 2.180 (1.851) \\ \hline
+	14 & 0.350 (0.252) & 0.982 (0.324) & 1.039 (0.805) \\ \hline
+\end{tabularx}
+\begin{center}
+\textbf{Average Maximum Unfairness}
+\end{center}
+\begin{tabularx}{\linewidth}{|X|X|X|X|} \hline
+	\textbf{No.\ Processors} & \textbf{Q-learning} & \textbf{Centralized} & \textbf{Token} \\ \hline
+	1  & 0.0 & 0.0 & 0.0  \\ \hline
+	5  & 1.397 & 2.609 & 5.914  \\ \hline
+	14 & 1.246 & 1.709 & 4.488 \\ \hline
+\end{tabularx}
+\vspace{1em}
+\line(1,0){50} \\
+{$*$ Average of 3 iterations.  Quasi-simulation.  30 cpu-intensive
+processes.  Random creation interval between 0.5 and 10 seconds}
+
+
+\end{document}
+
+
+
+
+

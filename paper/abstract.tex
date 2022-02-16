@@ -1,0 +1,25 @@
+ABSTRACT
+
+A processor allocation algorithm is a method to determine the best processor
+within a distributed system on which to run a process.  For example, assume
+a machine $X$ with one processor and a high load average.  The user of
+machine $X$ creates a new process.  However, since its load average is so
+high, machine $X$ decides to offload the process to another machine $Y$.
+Hence, a processor allocation algorithm is invoked to determine the best
+processor $Y$.  The goal of a processor allocation algorithm is to do this
+automatically, completely transparent to the user.
+
+An alteration of the aforementioned approach is to allow processes to
+migrate dynamically even after they have started executing.  This is
+achieved via preemptive scheduling with the use of checkpointing (saving and
+transmitting process state), whereas the former approach is achieved via
+non-preemptive scheduling (process runs to completion on the machine where
+it is started).
+
+My research looks at three different processor allocation algorithms, one
+centralized and two distributed.  All three algorithms were implemented
+using kali-scheme, a distributed version of scheme48 \cite{kali}.  Three
+environments were used to test the algorithms: simulation, quasi-simulation,
+and full implementation.  Test cases highlighting performance, scalability,
+and fault tolerance were run to compare and contrast the algorithms.
+

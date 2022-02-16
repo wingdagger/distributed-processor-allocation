@@ -1,0 +1,13 @@
+Message Type Counts for /home/stu93/allen/thesis/testing/token/quasi/testd/iter1
+
+
+Message Type	 Count
+------------	 -----
+accept	50
+add-processor	15
+create	50
+done	50
+log	773
+request	50
+shutdown	5
+token	225

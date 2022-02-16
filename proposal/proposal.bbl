@@ -1,0 +1,14 @@
+\begin{thebibliography}{CJK95}
+
+\bibitem[CJK95]{kali}
+H.~Cejtin, S.~Jagannathan, and R.~Kelsey.
+\newblock Higher-order distributed objects.
+\newblock {\em ACM Transactions on Programming Languages and Systems}, pages
+  10--15, September 1995.
+
+\bibitem[Tan95]{Tanenbaum}
+Andrew~S. Tanenbaum.
+\newblock {\em Distributed Operating Systems}.
+\newblock Prentice Hall, Englewood Cliffs, NJ, 1995.
+
+\end{thebibliography}

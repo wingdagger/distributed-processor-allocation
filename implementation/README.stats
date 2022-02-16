@@ -1,0 +1,38 @@
+Several reports are produced when the DS is shutdown using
+(shutdown-ds #t).  These reports are generated from the file
+/tmp/ds-logfile.ds which is continuously written while the DS runs.
+The reports are as follows:
+
+	/tmp/dataN.ds 
+		(N is the processor id corresponding to this data file)
+		Load average of processor over time
+
+	/tmp/avg-load-data.ds
+		Average load of all processors over time
+
+	/tmp/max-unfair-data.ds
+		Difference of load between the highest load machine
+and lowest loaded machine in the DS over time
+
+	/tmp/msg-type-counts.ds
+		Counts of each type of message produced in the DS.
+
+	/tmp/msg-type-sizes.ds
+		Total number of bytes used by messages.  Grouped by
+message type.
+
+	/tmp/process-data-stats.ds
+		For each process created in the DS, its creation time,
+execution start time, and end time.
+
+	/tmp/process-hop-counts.ds
+		For process creation messages, this file records how
+many hops were taken by a message before it was accepted for execution
+by a machine.
+
+	/tmp/stddev-data.ds
+		Standard deviation of processor loads from the average
+over time.
+
+	/tmp/user-logfile.ds
+		This is a human readable version of the file ds-logfile.ds

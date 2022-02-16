@@ -1,0 +1,18 @@
+- network daemon (receive-requests)
+- always-log-all-processors
+- update-load
+- migrate-procs (if *migrate-procs*)
+
+
+
+
+not always running
+------------------
+- log-it-primitive
+- process thread (within ds-run-process)
+- timeout-on-processor (if *migrate-procs*)
+- timeout-on-process (if *migrate-procs*)
+- accept-process
+- coordinator-broadcast (if token)
+- watch-for-lost-token (if token)
+- watch-for-dead-coordinator (if token)

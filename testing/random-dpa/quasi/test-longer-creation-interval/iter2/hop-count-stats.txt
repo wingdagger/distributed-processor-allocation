@@ -1,0 +1,18 @@
+Hop Count Statistics for /home/stu93/allen/thesis/testing/random-dpa/quasi/test-longer-creation-interval/iter2/process-hop-counts.ds
+-----------------------------------------
+Total messages: 30
+Average hop count: 2.53333333333333
+Standard Deviation of hop count: 0.746666666666667
+
+
+
+-------------------- Hop count data -----------------
+
+
+Num Hops	 Number of processes
+--------	 -------------------
+2	21
+3	6
+4	1
+5	1
+7	1

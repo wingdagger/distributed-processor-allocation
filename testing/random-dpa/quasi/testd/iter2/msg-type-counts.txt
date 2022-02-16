@@ -1,0 +1,13 @@
+Message Type Counts for /home/stu93/allen/thesis/testing/random-dpa/quasi/testd/iter2
+
+
+Message Type	 Count
+------------	 -----
+accept	50
+add-processor	15
+create	50
+done	49
+log	373
+request	109
+shutdown	3
+update	50

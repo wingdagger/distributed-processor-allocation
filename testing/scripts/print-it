@@ -1,0 +1,6 @@
+#!/bin/zsh
+
+foreach f in `find $1 -name "*.ps" -print`; do
+   echo printing $f
+   lp -dpsrich $f
+done

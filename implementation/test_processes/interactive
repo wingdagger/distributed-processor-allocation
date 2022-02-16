@@ -1,0 +1,12 @@
+#!/bin/zsh
+
+bindir="/home/allen/thesis/implementation/test_processes"
+
+if [ $OSTYPE = "linux" -o \
+     $OSTYPE = "Linux" ]; then
+	$bindir/interactive_i386 $1
+elif [ $OSTYPE = "solaris2.5" ]; then
+	$bindir/interactive_sparc $1
+else
+	echo "Unknown OSTYPE in interactive" >! /tmp/ds-errs
+fi

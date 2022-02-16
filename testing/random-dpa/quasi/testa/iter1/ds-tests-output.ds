@@ -1,0 +1,98 @@
+Performing /home/allen/thesis/testing/random-dpa/quasi/testa/iter1
+Welcome to Scheme 48 0.47  *** Distributed System 2.11 on plantain ***
+Built by allen on Sun Mar 22 14:28:55 CST 1998.
+Copyright (c) 1993, 1994 by Richard Kelsey and Jonathan Rees.
+Copyright (c) 1996 by NEC Research Institute, Inc.
+Please report bugs to scheme-48-bugs@martigny.ai.mit.edu.
+Type ,? (comma question-mark) for help.
+> > /home/allen/thesis/implementation/ds.mod 
+> [ds
+/home/allen/thesis/implementation/config.scm /home/allen/thesis/implementation/distrib.scm /home/allen/thesis/implementation/mailbox.scm /home/allen/thesis/implementation/utils.scm /home/allen/thesis/implementation/mail.scm /home/allen/thesis/implementation/objects.scm /home/allen/thesis/implementation/stats.scm /home/allen/thesis/implementation/logging.scm /home/allen/thesis/implementation/debug.scm /home/allen/thesis/implementation/tests.scm /home/allen/thesis/implementation/misc.scm /home/allen/thesis/implementation/usage-table.scm /home/allen/thesis/implementation/quasi.scm /home/allen/thesis/implementation/processes.scm ~/lib/scm/mailbox.scm 
+
+Undefined: (*algorithm* update-local-load server receive-requests-primitive make-receive-requests-token client-receive-requests)
+]
+> ds> /home/allen/thesis/implementation/random-dpa.scm 
+ds> Starting Distributed System. . .
+Adding processor to DS
+starting network daemon for 1
+Adding processor to DS
+starting network daemon for 2
+Adding processor to DS
+starting network daemon for 3
+Adding processor to DS
+starting network daemon for 4
+Adding processor to DS
+starting network daemon for 5
+Started logging
+ds> all processes created
+5: mailbox empty
+jobs: ()
+load: 0.030974
+free memory: 32
+number of remote jobs: 0
+	usage table
+	1 (2.20862 32. 242943)
+	2 (2.23845 32. 243531)
+	3 (1.4022 32. 186629)
+	4 (0.512939 32. 247142)
+	5 (0.030974 32 530476)
+4: mailbox empty
+jobs: ()
+load: 0.144587
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (1.47587 32. 229402)
+	1 (1.40749 32. 230050)
+	2 (1.58007 32. 225801)
+	3 (1.47088 32. 217582)
+	4 (0.212982 32 542257)
+3: mailbox empty
+jobs: ()
+load: 0.00575166
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (1.64618 32. 197469)
+	4 (0.342264 32. 223472)
+	1 (2.20218 32. 217695)
+	2 (1.34389 32. 205466)
+	3 (0.00575166 32 538633)
+2: mailbox empty
+jobs: ()
+load: 0.0340944
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (1.55194 32. 252077)
+	4 (1.4161 32. 176109)
+	3 (1.62877 32. 191173)
+	1 (2.27114 32. 240079)
+	2 (0.0340944 32 541287)
+1: mailbox empty
+jobs: ()
+load: 0.00980076
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (2.02183 32. 253912)
+	4 (0.826078 32. 243518)
+	3 (1.47631 32. 216821)
+	2 (2.30938 32. 245463)
+	1 (0.00980076 32 542935)
+Writing user log
+Making gnuplot data. . .Be patient
+Writing /tmp/data5.ds
+Writing /tmp/data4.ds
+Writing /tmp/data3.ds
+Writing /tmp/data2.ds
+Writing /tmp/data1.ds
+Writing /tmp/max-unfair-data.ds
+Writing /tmp/avg-load-data.ds
+Writing /tmp/stddev-data.ds
+Writing message counts to /tmp/msg-type-counts.ds
+Writing message sizes to /tmp/msg-type-sizes.ds
+Writing hop count stats to /tmp/process-hop-counts.ds
+Writing process stats to /tmp/process-data-stats.ds
+0
+ds> Copying files from /tmp/*.ds

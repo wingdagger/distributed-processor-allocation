@@ -1,0 +1,12 @@
+Message Type Counts for /home/stu93/allen/thesis/testing/centralized/quasi/test-scalability/1/iter2
+
+
+Message Type	 Count
+------------	 -----
+accept	50
+add-processor	1
+create	100
+done	50
+log	293
+request	50
+shutdown	2

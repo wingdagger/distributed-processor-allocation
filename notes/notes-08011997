@@ -1,0 +1,33 @@
+- Read kali paper.  How does kali pass threads (or any object) across
+the network?)  Learn everything about kali.
+
+- Check UNIX thread library for "thread loads."  If there is not such
+a thing, check other sources, and then invent one for kali for use in
+my ds.
+
+- Find source for "top" or "w" (w -u), in order to get load from the
+system.
+
+- Does kali talk between daemons or through the first command
+interpreter?  How does kali do communications?  Can I pass messages
+from daemon to daemon without going theoruhg a centralized mailbox
+system?  In other words, can I distibuted mailboxes?
+
+- Compare old results with new results.  Is a pure simulation giving
+realistic results?  If not, how can I modify the simulated
+environment.  There are 3 levels of comparison: simulation,
+quasi-simulation, and the real thing.
+
+- Research the web, etc. for DS and DS processor allocation.  Look for
+Tanenbaum, Universities that do DS research, etc.
+
+- Gather collection of materials on DS.  Acutally READ!!!
+
+- What are other approaches that could be better or should be
+considered and why?
+
+- What characteristics does B have that make it better than C.  Other
+than the numbers, why is this?  From a theory POV?
+
+- Need a committee of 3 in Sept.
+

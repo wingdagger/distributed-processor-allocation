@@ -1,0 +1,13 @@
+Hop Count Statistics for /home/stu93/allen/thesis/testing/token/quasi/test-preemption/iter1/process-hop-counts.ds
+-----------------------------------------
+Total messages: 
+Average hop count: 
+Standard Deviation of hop count: 
+
+
+
+-------------------- Hop count data -----------------
+
+
+Num Hops	 Number of processes
+--------	 -------------------

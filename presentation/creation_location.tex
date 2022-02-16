@@ -1,0 +1,57 @@
+\documentclass{slides}
+%\usepackage{times}
+\usepackage{xspace}
+\usepackage{graphics}
+\usepackage{here}
+\usepackage{bar}
+\usepackage{shadow}
+\usepackage{boxedminipage}
+\usepackage{tabularx}
+\usepackage{portland}
+
+\newcommand{\algtbl}[6]{
+%\center{\textbf{#6}}
+
+\begin{center}
+\textbf{#1}
+\end{center}
+
+\begin{tabularx}{\linewidth}{|X|X|X|X|} \hline
+	& \textbf{Q-learning} & \textbf{Centralized} & \textbf{Token} \\ \hline
+	#2
+\end{tabularx}
+
+\begin{center}
+\textbf{#3}
+\end{center}
+
+\begin{tabularx}{\linewidth}{|X|X|X|X|} \hline
+	& \textbf{Q-learning} & \textbf{Centralized} & \textbf{Token} \\ \hline
+	#4
+\end{tabularx}
+
+\vspace{1em}
+\line(1,0){50} \\
+#5
+}
+
+
+\begin{document}
+
+\landscape
+
+
+\algtbl{Creation of processes on random hosts}
+{	Avg.\ Load Avg.\ & 1.361 & 1.968 & 2.380 \\ \hline
+	Avg.\ Max.\ Unfairness & 2.513 & 2.104 & 4.578 \\ \hline
+	Avg.\ Std.\ Dev.\ & 0.840 & 0.671 & 1.488 \\ \hline}
+{Creation of processes on a single host}
+{	Avg.\ Load Avg.\ & 0.308 & 0.956 & 1.492 \\ \hline
+	Avg.\ Max.\ Unfairness & 0.599 & 0.929 & 2.367 \\ \hline
+	Avg.\ Std.\ Dev.\ & 0.188 & 0.257 & 0.721 \\ \hline}
+{Quasi-simulation environment, 5 processors, 30 processes with a random mix
+of all process types.}
+{Comparison of Process Creation Location}
+
+\end{document}
+

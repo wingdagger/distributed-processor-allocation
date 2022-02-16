@@ -1,0 +1,35 @@
+#!/usr/local/bin/zsh
+
+PLOT_INPUT=/tmp/gnuplot.in
+
+f=$1;
+	# Load Averages
+
+	echo set data style linespoints > $PLOT_INPUT
+	echo set terminal postscript landscape monochrome >> $PLOT_INPUT
+	echo set output \"loads.ps\" >> $PLOT_INPUT
+	echo set xlabel \"time (ms)\" >> $PLOT_INPUT
+	echo set ylabel \"load\" >> $PLOT_INPUT
+	echo set title \"$f : Load Averages over Time\" >> $PLOT_INPUT
+	echo plot \"data1.ds\" >> $PLOT_INPUT
+
+	# Maximum unfairness data
+
+	echo set output \"max-unfair.ps\" >> $PLOT_INPUT
+	echo set title \"$f : Maximum Unfairness Data over Time\" >> $PLOT_INPUT
+	echo plot \"max-unfair-data.ds\" >> $PLOT_INPUT
+
+	# Std dev data
+
+	echo set output \"stddev-data.ps\" >> $PLOT_INPUT
+	echo set title \"$f : Std Dev Data over Time\" >> $PLOT_INPUT
+	echo plot \"stddev-data.ds\" >> $PLOT_INPUT
+
+	cd $f
+	echo $f >> /tmp/gnuplot.errs
+	gnuplot $PLOT_INPUT 2>> /tmp/gnuplot.errs
+	echo ------ >> /tmp/gnuplot.errs
+	rm -f $PLOT_INPUT
+	echo $f done
+
+

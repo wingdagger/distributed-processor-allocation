@@ -1,0 +1,25 @@
+Hop Count Statistics for /home/stu93/allen/thesis/testing/random-dpa/quasi/test-scalability/14/iter2/process-hop-counts.ds
+-----------------------------------------
+Total messages: 50
+Average hop count: 4.4
+Standard Deviation of hop count: 2.448
+
+
+
+-------------------- Hop count data -----------------
+
+
+Num Hops	 Number of processes
+--------	 -------------------
+10	1
+12	1
+13	1
+16	1
+2	20
+3	8
+4	5
+5	4
+6	4
+7	1
+8	2
+9	2

@@ -1,0 +1,45 @@
+#!/bin/bash
+#
+# Build the D/S images in /shared/ernst.
+# Must run this from current directory, because it looks for
+# build.scm there.
+
+version="2.11"
+HOSTNAME=`uname -n`
+
+# location of images:
+image_dir=/shared/ernst/ds
+
+regular_image=$image_dir/ds.image
+comrade_image=$image_dir/remote-ds.image
+
+loader=./build.scm
+
+echo $HOSTNAME
+
+if [ "$HOSTNAME" = "voyager" -o \
+     "$HOSTNAME" = "samantha.eecs.tulane.edu" ]
+then
+    lib=/usr/local/lib/kali
+else
+    lib=/shared/ernst/lib/kali
+fi
+
+vm=$lib/scheme48vm
+initial=$lib/kali.image
+
+date=`date`
+USER=${USER-`logname 2>/dev/null || echo '*GOK*'`}
+
+{ $vm -i $initial -o $vm <<EOF
+,bench
+,exec ,load $loader
+,collect
+,dump $regular_image " *** Distributed System $version on $HOSTNAME ***
+Built by $USER on $date"
+,build (lambda args (become-comrade)) $comrade_image
+,exit
+EOF
+} &&
+echo Finished
+

@@ -1,0 +1,5 @@
+Message Type Counts for /home/stu93/allen/thesis/testing/centralized/quasi/test-fault-tolerance/iter1
+
+
+Message Type	 Count
+------------	 -----

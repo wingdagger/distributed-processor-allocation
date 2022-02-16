@@ -1,0 +1,16 @@
+Hop Count Statistics for /home/stu93/allen/thesis/testing/random-dpa/full/testb/iter1/process-hop-counts.ds
+-----------------------------------------
+Total messages: 30
+Average hop count: 2.23333333333333
+Standard Deviation of hop count: 0.404444444444445
+
+
+
+-------------------- Hop count data -----------------
+
+
+Num Hops	 Number of processes
+--------	 -------------------
+2	26
+3	3
+6	1

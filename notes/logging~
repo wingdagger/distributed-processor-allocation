@@ -1,0 +1,38 @@
+- Every processor logs its current state every $n$ seconds.  This
+information is used to produce 
+
+- load average of processors over time
+
+- memory usage of processors over time. 
+
+- Maximum unfairness (max_load - min_load) of processors over time.
+
+- Avg. Processor Load over time
+
+- Std. Dev. of porcessor load from avg. over time.
+
+- Response time: Time elapse from process creation to process
+execution (list of all values, avg., std dev)
+
+- Total Elapsed Time: Time elapse from process cration to process
+termination (list of all values, avg., std dev)
+
+- CPU overhead: CPU time used by processor allocation / total CPU time
+
+- Network bandwidth overhead: Bandwidth used by processor allocation /
+total network bandwidth for time period.
+
+- Avg. number of hop counts for all messages (or for all requests) for
+each processor allocation algorithm.
+
+- Number of local jobs, number of remote jobs for each processor.
+
+- Introduce $n$ processes into a DS with $m$ processors.  Measure
+total time it takes all $n$ processes to complete, while varying $m$.
+Ideally, as $m$ increases, total time should decrease.  This probabaly
+will not be true for all $m$.  Where total time changes drastically
+with $m$ (e.g., change in slope) should indicate scalability of the
+system as well as show performance gains of LB in a DS.
+
+- Showing how all these parameters change with change in $m$ will show
+scalability.

@@ -1,0 +1,8 @@
+- For the centralized algorithm, I need to subtract out the initial load
+from all of the load averages in the final statistics.  This is
+because my system assumes all job requests go through it; however, for
+the full implementation, initial system loads already exists becuase
+not all job requests go through it.  Also, I need to run on machines
+that are not being used by other peopel to get best
+results. Otherwise, some other person could affect the real load
+average and not go trhough my centralized algorithm.

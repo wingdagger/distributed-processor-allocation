@@ -1,0 +1,111 @@
+\documentclass{article}
+\usepackage{fullpage}
+%\usepackage{times}
+\usepackage{xspace}
+\usepackage{graphics}
+\usepackage{here}
+\usepackage{bar}
+\usepackage{shadow}
+\usepackage{boxedminipage}
+\usepackage{tabularx}
+
+
+
+\newcommand{\messagetypebar}[4]{
+\begin{center}
+\textbf{#4}
+\end{center}
+
+\begin{barenv}
+\setdepth{10} % 3-D effect
+\setstretch{1.4} % stretch y-dimension
+\setnumberpos{up} % number above bars
+\setxaxis{1}{7}{1}\setxname{Messsage Type}
+\setyaxis{0}{120}{15}\setyname{No.}
+#1
+\end{barenv}
+
+\vspace{3em}
+\begin{flushright}
+\shabox{\parbox{6cm}{\textbf{Legend} \\
+	#2}}
+\end{flushright}
+
+\vspace{1em}
+\line(1,0){50} \\
+#3
+} 
+
+
+
+
+\begin{document}
+
+
+\messagetypebar{
+\bar{50}{1}
+\bar{15}{2}
+\bar{50}{3}
+\bar{50}{4}
+%\bar{431}{5}
+\bar{118}{6}
+\bar{5}{7}
+\bar{50}{8}}
+{1 -- process-accept \\
+ 2 -- processor-add \\
+ 3 -- process-create \\
+ 4 -- process-done \\
+% 5 -- log \\
+ 5 -- process-request \\
+ 6 -- processor-shutdown \\
+ 7 -- update}
+{Q-learning algorithm in the quasi-simulation environment.  30 processes, 5
+processes, and a mix of process types.  Average of 3 iterations.}
+{Messages Generated for Q-learning Algorithm}
+
+\clearpage
+
+\messagetypebar{
+\bar{50}{1}
+\bar{5}{2}
+\bar{100}{3}
+\bar{50}{4}
+%\bar{519}{5}
+\bar{50}{6}
+\bar{6}{7}}
+{1 -- process-accept \\
+ 2 -- processor-add \\
+ 3 -- process-create \\
+ 4 -- process-done \\
+% 5 -- log \\
+ 5 -- process-request \\
+ 6 -- processor-shutdown}
+{Centralized algorithm in the quasi-simulation environment.  50 processes, 5
+processes, and a mix of process types.  Average of 3 iterations}
+{Messages Generated for Centralized Algorithm}
+
+
+\clearpage
+
+\messagetypebar{
+\bar{50}{1}
+\bar{15}{2}
+\bar{50}{3}
+\bar{50}{4}
+%\bar{440}{5}
+\bar{50}{6}
+\bar{5}{7}
+\bar{65}{8}}
+{1 -- process-accept \\
+ 2 -- processor-add \\
+ 3 -- process-create \\
+ 4 -- process-done \\
+% 5 -- log \\
+ 5 -- process-request \\
+ 6 -- processor-shutdown \\
+ 7 -- token}
+{Token-based algorithm in the quasi-simulation environment.  50 processes, 5
+processes, and a mix of process types.  Average of 3 iterations.}
+{Messages Generated for Token-based Algorithm}
+
+\end{document}

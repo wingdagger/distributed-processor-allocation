@@ -1,0 +1,5 @@
+Process Statistics for /home/stu93/allen/thesis/testing/token/quasi/testc/iter2
+
+
+process id	 response time	 total_time
+----------	 -------------	 ----------

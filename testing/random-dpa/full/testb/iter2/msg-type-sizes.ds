@@ -1,0 +1,8 @@
+add-processor	3840
+create	7680
+request	11264
+accept	7680
+update	7680
+done	7680
+log	53760
+shutdown	1024

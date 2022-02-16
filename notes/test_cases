@@ -1,0 +1,123 @@
+Test Cases
+==========
+
+
+Variables
+---------
+
+	- # of processors in system
+	- number of processes introduced to system
+	- time distribution of processes introduced to system
+	- location distribution of processes introduced to system
+	- type of process
+		* CPU-intensive
+		* I/O-intensive (disk)
+		* Memory-intensive
+	- Load, memory requiremetns, and length of processes
+	- Speed of processors
+	- Memory of processors
+	- Environment
+		* simulation
+		* quasi-simulation
+		* real implementation
+	- Preemptive vs. non-preemptive load balancing
+		(only in simulation and quasi-simulation)
+
+
+Test Cases
+----------
+
+I. 4 process types * 3 algorithms * 3 environments = 36 test cases
+   (cpu-intensive-process, interactive-process,
+    disk-intensive-process, mix-of-all three) 
+   (random-dpa, centralized up-down, token-based)
+   (simulation, quasi-simulation, full-implementation)
+
+   A. Characteristics same among all test cases
+      1. Variable creation interval between 0.5s and 10s
+      2. Each process is created on a random machine
+      3. 5 processors
+      4. Non-preemptive
+
+   B. Characteristics differring among test cases
+
+      1. Test A
+	 a. 30 processes
+	 b. Only CPU intensive processes
+	 c. For simulation, a process with load 1 that runs 35 seconds
+	    is used
+
+      2. Test B
+	 a. 30 processes
+	 b. Only highly interactive processes
+	 c. For simulation, a process with load 0.01 that runs 10 seconds
+	    is used
+
+      3. Test C
+         a. 30 processes
+	 b. Only disk intensive processes
+	 c. For simulation, a process with load 0.6 that runs 18 seconds
+	    is used
+
+      4. Test D
+	 a. 50 processes
+	 b. A mix of all 3 process types
+	 c. For simulation, processes have a random load of between
+	    0.01 and 1.0 and run for a random interval of between 
+
+
+II. Longer interval between process creations.  3 algorithms * 1
+    environment = 3 test cases
+
+    A. 15 seconds between every process creation
+    B. 30 processes total
+    C. A mix of all 3 process types
+    D. Each process is created on a random machine
+    E. Quasi-simulation environment
+    F. 5 processors
+    G. Non-preemptive
+	
+
+III. Scalability.  Number of processors changed.  Performed only in
+quasi-simulation environment.  Number of Processors * 3 algorithms * 1
+environment = 9 test cases
+
+    A. Number of processors (1, 5, 20, n)
+    B. Quasi-simulation environment
+    C. Non-preemptive
+    D. 50? processes total
+    E. Processes are created on random machines
+    F. A mix of all 3 process types are used
+    G. A random amount of time between 0.5s and 15s between each
+       process creation request
+
+
+IV. Location of process introduction. 1 algorithm * 3 environments.
+Performed only in quasi-simulation.  All processes are created on the
+same machine.  For token and centralized algorithms, this makes no
+difference, but in the random-dpa algorithm, it does matter where
+processes are created because not all machines have the same view of
+the system.  3 test cases.
+
+    A. 30 processes total
+    B. All processes are created on the same machine
+    C. 15 seconds between each process creation
+    D. A mix of all 3 process types
+
+
+V. Fault Tolerance (4 tests * 3 algorithms = 12 test cases).
+
+   A. Processor failures
+   B. Processor additions during runtime
+   C. Network failures
+   D. Network delays
+
+
+VI. Preemptive vs. non-preemptive processor allocation
+   2 environments (simulation, quasi-simulation) * 3 algorithms = 6
+test cases.
+
+
+
+-----------
+Total Test Cases = 70 test cases

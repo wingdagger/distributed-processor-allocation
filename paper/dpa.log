@@ -1,0 +1,460 @@
+This is TeX, Version 3.1415 (C version 6.1) (format=latex 96.12.26)  28 APR 1998 17:22
+**dpa.tex
+(dpa.tex
+LaTeX2e <1996/06/01>
+(/usr/local/opt/TeX/share/texmf/tex/latex/base/report.cls
+Document Class: report 1996/05/26 v1.3r Standard LaTeX document class
+(/usr/local/opt/TeX/share/texmf/tex/latex/base/size10.clo
+File: size10.clo 1996/05/26 v1.3r Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/home/stu93/allen/include/TeX/csthesis-josh.sty
+Document Style Option: 'CSthesis' <6 June 1993>
+(/home/schaffer/include/TeX/sty/doublespace.sty)
+\chap@or@app=\count88
+)
+(/home/schaffer/include/TeX/sty/doublespace.sty)
+(/usr/local/opt/TeX/share/texmf/tex/latex/tools/xspace.sty
+Package: xspace 1996/05/17 v1.04 Space after command names (DPC)
+)
+(/home/schaffer/include/TeX/sty/graphics.sty
+Package: graphics 1995/04/27 v0.7b Standard LaTeX Graphics (DPC,SPQR)
+
+(/home/schaffer/include/TeX/sty/trig.sty
+Package: trig 1994/10/16 v1.08 sin cos tan (DPC)
+)
+(/home/schaffer/include/TeX/sty/graphics.cfg)
+Package graphics Info: Driver file: dvips.def on input line 88.
+
+(/home/schaffer/include/TeX/sty/dvips.def
+File: dvips.def 1995/04/19 v2.9 Driver-dependant file (DPC,SPQR)
+))
+(/usr/local/opt/TeX/share/texmf/tex/latex/base/alltt.sty
+Package: alltt 1995/07/24 v2.0f defines alltt environment
+)
+(/home/schaffer/include/TeX/sty/here.sty)
+(/home/stu93/allen/include/TeX/bar.sty
+Option BAR, Version 1.0 Sep. 92, J.Bleser, TH Darmstadt, HRZ
+bug fix for CTAN April 1994 (SPQR, for David Carlisle)
+\breite=\count89
+\hoehe=\count90
+\tiefe=\count91
+\lhoehe=\count92
+\anzbar=\count93
+\hbarI=\count94
+\xpos=\count95
+\lxpos=\count96
+\halfbreite=\count97
+\ypos=\count98
+\lypos=\count99
+\tmpa=\count100
+\tmpb=\count101
+\tmpc=\count102
+\tmpd=\count103
+\tmpe=\count104
+\xmin=\count105
+\xmax=\count106
+\xstep=\count107
+\deltax=\count108
+\yhoehe=\count109
+\ymin=\count110
+\ymax=\count111
+\ystep=\count112
+\yminII=\count113
+\ymaxII=\count114
+\deltay=\count115
+\ymove=\count116
+\xmove=\count117
+\inter=\count118
+\exact=\count119
+\xexact=\count120
+\dtmpa=\dimen103
+\dtmpb=\dimen104
+\dmin=\dimen105
+\dmax=\dimen106
+\dstep=\dimen107
+\dxmin=\dimen108
+\dxmax=\dimen109
+\dxstep=\dimen110
+\faktor=\dimen111
+\dinter=\dimen112
+\mybox=\box26
+\xbox=\box27
+\ybox=\box28
+\vorz=\count121
+) (/home/stu93/allen/include/TeX/shadow.sty
+Style Option: `shadow' v1.2.1 <16 September 1996> (M.O.)
+\txtwdth=\dimen113
+\sht=\dimen114
+\shw=\dimen115
+\shbox=\box29
+\sboxsep=\dimen116
+\sboxrule=\dimen117
+\sdim=\dimen118
+) (/home/stu93/allen/include/TeX/boxedminipage.sty)
+(/usr/local/opt/TeX/share/texmf/tex/latex/tools/tabularx.sty
+Package: tabularx 1995/03/20 v2.02 `tabularx' package (DPC)
+
+(/usr/local/opt/TeX/share/texmf/tex/latex/tools/array.sty
+Package: array 1996/06/14 v2.3i Tabular extension package (FMi)
+\col@sep=\dimen119
+\extrarowheight=\dimen120
+\NC@list=\toks14
+\extratabsurround=\skip43
+\backup@length=\skip44
+)
+\TX@col@width=\dimen121
+\TX@old@table=\dimen122
+\TX@old@col=\dimen123
+\TX@target=\dimen124
+\TX@delta=\dimen125
+\TX@cols=\count122
+\TX@ftn=\toks15
+) (dpa.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 205.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 205.
+ [1
+
+]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 206.
+
+
+(/usr/local/opt/TeX/share/texmf/tex/latex/base/OMScmr.fd
+File: OMScmr.fd 1996/05/19 v2.4h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 206.
+ [1] [2
+
+] [3
+
+] (dpa.toc
+[4
+
+] [5] [6])
+\tf@toc=\write3
+ [7] (dpa.lof [8
+
+] [9] [10] [11])
+\tf@lof=\write4
+ [12]
+Chapter 1.
+[1
+
+] [2] [3]
+Chapter 2.
+[4
+
+] [5] [6] [7]
+File: figs/usage_table.eps Graphic file (type eps)
+ <figs/usage_table.eps> [8] [9]
+File: figs/hier.eps Graphic file (type eps)
+ <figs/hier.eps> [10] [11]
+[12] [13] [14]
+Underfull \hbox (badness 5036) in paragraph at lines 819--819
+[]\OT1/cmr/bx/n/12 Dynamic Scheduling in Shared-Memory Multiprocessors
+ []
+
+[15] [16]
+Chapter 3.
+File: figs/token.eps Graphic file (type eps)
+<figs/token.eps> [17
+
+] [18]
+File: figs/random-dpa.eps Graphic file (type eps)
+ <figs/random-dpa.eps> [19] [20] [21] [22] [23]
+[24] [25] [26] [27]
+Chapter 4.
+[28
+
+]
+Underfull \hbox (badness 1043) in paragraph at lines 1315--1318
+[]\OT1/cmr/m/n/10 The design of this system is separated into several entities:
+ processors, processes,
+ []
+
+[29] [30] [31] [32]
+Underfull \hbox (badness 1668) in paragraph at lines 1465--1472
+[]\OT1/cmr/m/n/10 For group messaging, FIFO broadcast semantics is provided by 
+the mail system.
+ []
+
+[33] [34] [35] [36] [37] [38] [39] [40] [41]
+Chapter 5.
+[42
+
+] [43]
+Underfull \hbox (badness 1377) in paragraph at lines 1902--1910
+\OT1/cmr/m/n/10 Simulation, Quasi-simulation, and full implementation. There ar
+e 3 algorithms:
+ []
+
+[44] [45] [46] [47] [48] [49] [50] [51] [52] [53]
+Underfull \hbox (badness 10000) in paragraph at lines 2291--2291
+[]|\OT1/cmr/m/n/10 Avg. Maximum
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2291--2291
+[]|\OT1/cmr/m/n/10 Avg. Maximum
+ []
+
+[54]
+Underfull \hbox (badness 10000) in paragraph at lines 2321--2321
+[]|\OT1/cmr/m/n/10 Avg. Maximum
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2321--2321
+[]|\OT1/cmr/m/n/10 Avg. Maximum
+ []
+
+[55]
+Underfull \hbox (badness 1817) in paragraph at lines 2323--2327
+\OT1/cmr/m/n/10 Q-learning algorithm and the token-based algorithm. For the cen
+tralized algorithm,
+ []
+
+[56] [57] [58] [59] [60] [61] [62] [63]
+Underfull \hbox (badness 1028) in paragraph at lines 2639--2646
+[]\OT1/cmr/m/n/10 On the other hand, the quasi-simulation performed much more s
+imilar to the full
+ []
+
+[64] [65] [66]
+Chapter 6.
+[67
+
+] [68] [69] [70] [71] [72] [73]
+Appendix A.
+(plots.tex
+File: ../testing/random-dpa/sim/testa/iter1/loads.ps Graphic file (type eps)
+ <../testing/random-dpa/sim/testa/iter1/loads.ps>
+File: ../testing/random-dpa/sim/testa/iter1/max-unfair.ps Graphic file (type ep
+s)
+
+<../testing/random-dpa/sim/testa/iter1/max-unfair.ps> [74
+
+]
+File: ../testing/random-dpa/sim/testa/iter1/stddev-data.ps Graphic file (type e
+ps)
+
+<../testing/random-dpa/sim/testa/iter1/stddev-data.ps>
+File: ../testing/random-dpa/quasi/testa/iter1/loads.ps Graphic file (type eps)
+
+<../testing/random-dpa/quasi/testa/iter1/loads.ps> [75]
+File: ../testing/random-dpa/quasi/testa/iter1/max-unfair.ps Graphic file (type 
+eps)
+
+<../testing/random-dpa/quasi/testa/iter1/max-unfair.ps>
+File: ../testing/random-dpa/quasi/testa/iter1/stddev-data.ps Graphic file (type
+ eps)
+
+<../testing/random-dpa/quasi/testa/iter1/stddev-data.ps> [76]
+File: ../testing/random-dpa/quasi/testb/iter1/loads.ps Graphic file (type eps)
+
+<../testing/random-dpa/quasi/testb/iter1/loads.ps>
+File: ../testing/random-dpa/quasi/testb/iter1/max-unfair.ps Graphic file (type 
+eps)
+
+<../testing/random-dpa/quasi/testb/iter1/max-unfair.ps> [77]
+File: ../testing/random-dpa/quasi/testb/iter1/stddev-data.ps Graphic file (type
+ eps)
+
+<../testing/random-dpa/quasi/testb/iter1/stddev-data.ps>
+File: ../testing/random-dpa/quasi/testc/iter1/loads.ps Graphic file (type eps)
+
+<../testing/random-dpa/quasi/testc/iter1/loads.ps> [78]
+File: ../testing/random-dpa/quasi/testc/iter1/max-unfair.ps Graphic file (type 
+eps)
+
+<../testing/random-dpa/quasi/testc/iter1/max-unfair.ps>
+File: ../testing/random-dpa/quasi/testc/iter1/stddev-data.ps Graphic file (type
+ eps)
+
+<../testing/random-dpa/quasi/testc/iter1/stddev-data.ps> [79]
+File: ../testing/random-dpa/quasi/testd/iter1/loads.ps Graphic file (type eps)
+
+<../testing/random-dpa/quasi/testd/iter1/loads.ps>
+File: ../testing/random-dpa/quasi/testd/iter1/max-unfair.ps Graphic file (type 
+eps)
+
+<../testing/random-dpa/quasi/testd/iter1/max-unfair.ps> [80]
+File: ../testing/random-dpa/quasi/testd/iter1/stddev-data.ps Graphic file (type
+ eps)
+
+<../testing/random-dpa/quasi/testd/iter1/stddev-data.ps>
+File: ../testing/random-dpa/full/testa/iter1/loads.ps Graphic file (type eps)
+
+<../testing/random-dpa/full/testa/iter1/loads.ps> [81]
+File: ../testing/random-dpa/full/testa/iter1/max-unfair.ps Graphic file (type e
+ps)
+
+<../testing/random-dpa/full/testa/iter1/max-unfair.ps>
+File: ../testing/random-dpa/full/testa/iter1/stddev-data.ps Graphic file (type 
+eps)
+
+<../testing/random-dpa/full/testa/iter1/stddev-data.ps> [82]
+File: ../testing/random-dpa/full/testc/iter1/loads.ps Graphic file (type eps)
+
+<../testing/random-dpa/full/testc/iter1/loads.ps>
+File: ../testing/random-dpa/full/testc/iter1/max-unfair.ps Graphic file (type e
+ps)
+
+<../testing/random-dpa/full/testc/iter1/max-unfair.ps> [83]
+File: ../testing/random-dpa/full/testc/iter1/stddev-data.ps Graphic file (type 
+eps)
+
+<../testing/random-dpa/full/testc/iter1/stddev-data.ps>
+File: ../testing/random-dpa/full/testd/iter1/loads.ps Graphic file (type eps)
+
+<../testing/random-dpa/full/testd/iter1/loads.ps> [84]
+File: ../testing/random-dpa/full/testd/iter1/max-unfair.ps Graphic file (type e
+ps)
+
+<../testing/random-dpa/full/testd/iter1/max-unfair.ps>
+File: ../testing/random-dpa/full/testd/iter1/stddev-data.ps Graphic file (type 
+eps)
+
+<../testing/random-dpa/full/testd/iter1/stddev-data.ps> [85]
+File: ../testing/token/quasi/testa/iter1/loads.ps Graphic file (type eps)
+
+<../testing/token/quasi/testa/iter1/loads.ps>
+File: ../testing/token/quasi/testb/iter1/loads.ps Graphic file (type eps)
+
+<../testing/token/quasi/testb/iter1/loads.ps> [86]
+File: ../testing/token/quasi/testc/iter1/loads.ps Graphic file (type eps)
+
+<../testing/token/quasi/testc/iter1/loads.ps>
+File: ../testing/token/quasi/testd/iter1/loads.ps Graphic file (type eps)
+
+<../testing/token/quasi/testd/iter1/loads.ps> [87]
+File: ../testing/token/full/testa/iter1/loads.ps Graphic file (type eps)
+
+<../testing/token/full/testa/iter1/loads.ps>
+File: ../testing/token/full/testb/iter1/loads.ps Graphic file (type eps)
+
+<../testing/token/full/testb/iter1/loads.ps> [88]
+File: ../testing/token/full/testc/iter1/loads.ps Graphic file (type eps)
+
+<../testing/token/full/testc/iter1/loads.ps>
+File: ../testing/token/full/testd/iter1/loads.ps Graphic file (type eps)
+
+<../testing/token/full/testd/iter1/loads.ps> [89]
+File: ../testing/centralized/quasi/testa/iter1/loads.ps Graphic file (type eps)
+
+
+<../testing/centralized/quasi/testa/iter1/loads.ps>
+File: ../testing/centralized/quasi/testb/iter1/loads.ps Graphic file (type eps)
+
+
+<../testing/centralized/quasi/testb/iter1/loads.ps> [90]
+File: ../testing/centralized/quasi/testc/iter1/loads.ps Graphic file (type eps)
+
+
+<../testing/centralized/quasi/testc/iter1/loads.ps>
+File: ../testing/centralized/quasi/testd/iter1/loads.ps Graphic file (type eps)
+
+
+<../testing/centralized/quasi/testd/iter1/loads.ps> [91]
+File: ../testing/centralized/full/testa/iter1/loads.ps Graphic file (type eps)
+
+<../testing/centralized/full/testa/iter1/loads.ps>
+File: ../testing/centralized/full/testb/iter1/loads.ps Graphic file (type eps)
+
+<../testing/centralized/full/testb/iter1/loads.ps> [92]
+File: ../testing/centralized/full/testc/iter1/loads.ps Graphic file (type eps)
+
+<../testing/centralized/full/testc/iter1/loads.ps>
+File: ../testing/centralized/full/testd/iter1/loads.ps Graphic file (type eps)
+
+<../testing/centralized/full/testd/iter1/loads.ps> [93]
+File: ../testing/random-dpa/quasi/test-longer-creation-interval/iter1/loads.ps 
+Graphic file (type eps)
+
+<../testing/random-dpa/quasi/test-longer-creation-interval/iter1/loads.ps>
+File: ../testing/random-dpa/quasi/test-same-location/iter1/loads.ps Graphic fil
+e (type eps)
+
+<../testing/random-dpa/quasi/test-same-location/iter1/loads.ps> [94]
+File: ../testing/token/quasi/test-longer-creation-interval/iter1/loads.ps Graph
+ic file (type eps)
+
+<../testing/token/quasi/test-longer-creation-interval/iter1/loads.ps>
+File: ../testing/token/quasi/test-same-location/iter1/loads.ps Graphic file (ty
+pe eps)
+
+<../testing/token/quasi/test-same-location/iter1/loads.ps> [95]
+File: ../testing/centralized/quasi/test-longer-creation-interval/iter1/loads.ps
+ Graphic file (type eps)
+
+<../testing/centralized/quasi/test-longer-creation-interval/iter1/loads.ps>
+File: ../testing/centralized/quasi/test-same-location/iter1/loads.ps Graphic fi
+le (type eps)
+
+<../testing/centralized/quasi/test-same-location/iter1/loads.ps> [96]) (dpa.bbl
+[97]
+Underfull \hbox (badness 1960) in paragraph at lines 42--46
+[][]\OT1/cmr/m/n/10 Babak Hamidzadeh and David J. Lilja.  Dynamic scheduling st
+rategies for
+ []
+
+
+Underfull \hbox (badness 4156) in paragraph at lines 42--46
+\OT1/cmr/m/n/10 shared-memory multiprocessors.  \OT1/cmr/m/it/10 16th Internati
+onal Conference on
+ []
+
+
+Underfull \hbox (badness 3179) in paragraph at lines 67--72
+[][]\OT1/cmr/m/n/10 M.W. Mutka and M. Livny.  Scheduling remote processor capac
+ity in a
+ []
+
+
+Underfull \hbox (badness 5519) in paragraph at lines 67--72
+\OT1/cmr/m/n/10 workstation-processor bank network.  \OT1/cmr/m/it/10 Proceedin
+gs of the Seventh
+ []
+
+[98
+
+]) [99] [100
+
+] (dpa.aux) ) 
+Here is how much of TeX's memory you used:
+ 1250 strings out of 10917
+ 16426 string characters out of 73050
+ 72172 words of memory out of 262141
+ 3774 multiletter control sequences out of 9500
+ 7442 words of font info for 27 fonts, out of 100000 for 255
+ 14 hyphenation exceptions out of 607
+ 23i,10n,30p,283b,372s stack positions out of 300i,40n,60p,3000b,4000s
+
+Output written on dpa.dvi (113 pages, 269888 bytes).

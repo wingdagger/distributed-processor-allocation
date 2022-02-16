@@ -1,0 +1,1358 @@
+Welcome to Scheme 48 0.47  *** Distributed System 2.11 on juno ***
+Built by allen on Fri Mar 13 14:14:54 CST 1998.
+Copyright (c) 1993, 1994 by Richard Kelsey and Jonathan Rees.
+Copyright (c) 1996 by NEC Research Institute, Inc.
+Please report bugs to scheme-48-bugs@martigny.ai.mit.edu.
+Type ,? (comma question-mark) for help.
+> (commissar '(("icarus" . 33246) ("duvieux" . 37028) ("midcity" . 34427) ("amor" . 36533)
+			     ("hermes" . 33682)))
+,config ,load ds.mod
+> ds.mod 
+> ,in dsy
+
+Error: unbound variable
+       dsy
+       #{Package 128 config}
+1> 
+> ,in ds
+Load structure ds (y/n)? y
+[ds
+config.scm distrib.scm mailbox.scm utils.scm mail.scm objects.scm stats.scm logging.scm debug.scm tests.scm misc.scm usage-table.scm quasi.scm processes.scm ~/lib/scm/mailbox.scm 
+
+Undefined: (*algorithm* update-local-load server receive-requests-primitive make-receive-requests-token client-receive-requests)
+]
+ds> /home/stu93/allen/thesis/implementation/centralized.scm 
+ds> (start-ds 5 #f)
+Begin of make-processor-primitive for id: 0
+starting network daemon for 1
+starting network daemon for 2
+starting network daemon for 3
+starting network daemon for 4
+starting network daemon for 5
+Usage table initialized
+Logging started
+ds> (testc)
+'#{Proxy 0 118}
+ds> 
+ds> (show-stats)
+0: mailbox empty
+jobs: ()
+load: 0.
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (3 32 17719)
+	4 (0 32 17730)
+	3 (0 32 17740)
+	2 (0 32 17751)
+	1 (0 32 17764)
+5: mailbox empty
+jobs: (1001 1002 1003)
+load: 0.11
+free memory: 32
+number of remote jobs: 0
+	usage table
+4: mailbox empty
+jobs: ()
+load: 0.1
+free memory: 32
+number of remote jobs: 1
+	usage table
+3: mailbox empty
+jobs: ()
+load: 0.08
+free memory: 32
+number of remote jobs: 2
+	usage table
+2: mailbox empty
+jobs: ()
+load: 0.07
+free memory: 32
+number of remote jobs: 0
+	usage table
+1: mailbox empty
+jobs: ()
+load: 0.09
+free memory: 32
+number of remote jobs: 0
+	usage table
+ds> (show-stats)
+0: mailbox empty
+jobs: ()
+load: 0.
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (6 32 17719)
+	4 (1 32 17730)
+	3 (0 32 17740)
+	2 (0 32 17751)
+	1 (0 32 17764)
+5: mailbox empty
+jobs: (1001 1002 1003)
+load: 0.51
+free memory: 32
+number of remote jobs: 0
+	usage table
+4: mailbox empty
+jobs: (1004)
+load: 0.1
+free memory: 32
+number of remote jobs: 1
+	usage table
+3: mailbox empty
+jobs: ()
+load: 0.07
+free memory: 32
+number of remote jobs: 2
+	usage table
+2: mailbox empty
+jobs: ()
+load: 0.07
+free memory: 32
+number of remote jobs: 0
+	usage table
+1: mailbox empty
+jobs: ()
+load: 0.09
+free memory: 32
+number of remote jobs: 0
+	usage table
+ds> (show-stats)
+0: mailbox empty
+jobs: ()
+load: 0.
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (9 32 17719)
+	4 (2 32 17730)
+	3 (1 32 17740)
+	2 (0 32 17751)
+	1 (0 32 17764)
+5: mailbox empty
+jobs: (1001 1002 1003)
+load: 0.93
+free memory: 32
+number of remote jobs: 0
+	usage table
+4: mailbox empty
+jobs: (1004)
+load: 0.31
+free memory: 32
+number of remote jobs: 1
+	usage table
+3: mailbox empty
+jobs: (1005)
+load: 0.13
+free memory: 32
+number of remote jobs: 2
+	usage table
+2: mailbox empty
+jobs: (1006)
+load: 0.11
+free memory: 32
+number of remote jobs: 0
+	usage table
+1: mailbox empty
+jobs: ()
+load: 0.09
+free memory: 32
+number of remote jobs: 0
+	usage table
+ds> (show-stats)
+0: mailbox empty
+jobs: ()
+load: 0.
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (12 32 17719)
+	4 (3 32 17730)
+	3 (2 32 17740)
+	2 (1 32 17751)
+	1 (0 32 17764)
+5: mailbox empty
+jobs: (1001 1002 1003)
+load: 1.3
+free memory: 32
+number of remote jobs: 1
+	usage table
+4: mailbox empty
+jobs: (1004)
+load: 0.37
+free memory: 32
+number of remote jobs: 1
+	usage table
+3: mailbox empty
+jobs: (1005)
+load: 0.23
+free memory: 32
+number of remote jobs: 2
+	usage table
+2: mailbox empty
+jobs: (1006)
+load: 0.14
+free memory: 32
+number of remote jobs: 0
+	usage table
+1: mailbox empty
+jobs: ()
+load: 0.14
+free memory: 32
+number of remote jobs: 0
+	usage table
+ds> (show-stats)
+0: mailbox empty
+jobs: ()
+load: 0.
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (18 32 17719)
+	4 (3 32 17730)
+	3 (4 32 17740)
+	2 (3 32 17751)
+	1 (1 32 17764)
+5: mailbox empty
+jobs: (1001 1002 1003)
+load: 1.59
+free memory: 32
+number of remote jobs: 1
+	usage table
+4: mailbox empty
+jobs: ()
+load: 0.41
+free memory: 32
+number of remote jobs: 1
+	usage table
+3: mailbox empty
+jobs: (1005)
+load: 0.34
+free memory: 32
+number of remote jobs: 2
+	usage table
+2: mailbox empty
+jobs: (1006)
+load: 0.3
+free memory: 32
+number of remote jobs: 1
+	usage table
+1: mailbox empty
+jobs: (1007)
+load: 0.18
+free memory: 32
+number of remote jobs: 0
+	usage table
+ds> (show-stats)
+0: mailbox empty
+jobs: ()
+load: 0.
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (21 32 17719)
+	4 (2 32 17730)
+	3 (5 32 17740)
+	2 (4 32 17751)
+	1 (3 32 17764)
+5: mailbox empty
+jobs: (1001 1002 1003)
+load: 1.59
+free memory: 32
+number of remote jobs: 1
+	usage table
+4: mailbox empty
+jobs: ()
+load: 0.4
+free memory: 32
+number of remote jobs: 1
+	usage table
+3: mailbox empty
+jobs: ()
+load: 0.41
+free memory: 32
+number of remote jobs: 3
+	usage table
+2: mailbox empty
+jobs: (1006)
+load: 0.39
+free memory: 32
+number of remote jobs: 1
+	usage table
+1: mailbox empty
+jobs: (1007 1008)
+load: 0.3
+free memory: 32
+number of remote jobs: 0
+	usage table
+ds> (show-stats)
+0: mailbox empty
+jobs: ()
+load: 0.
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (24 32 17719)
+	4 (3 32 17730)
+	3 (4 32 17740)
+	2 (5 32 17751)
+	1 (5 32 17764)
+5: mailbox empty
+jobs: (1001 1002 1003)
+load: 1.84
+free memory: 32
+number of remote jobs: 0
+	usage table
+4: mailbox empty
+jobs: (1009)
+load: 0.45
+free memory: 32
+number of remote jobs: 1
+	usage table
+3: mailbox empty
+jobs: ()
+load: 0.43
+free memory: 32
+number of remote jobs: 3
+	usage table
+2: mailbox empty
+jobs: ()
+load: 0.46
+free memory: 32
+number of remote jobs: 2
+	usage table
+1: mailbox empty
+jobs: (1007 1008)
+load: 0.56
+free memory: 32
+number of remote jobs: 0
+	usage table
+ds> (show-stats)
+0: mailbox empty
+jobs: ()
+load: 0.
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (27 32 17719)
+	4 (4 32 17730)
+	3 (3 32 17740)
+	2 (4 32 17751)
+	1 (7 32 17764)
+5: mailbox empty
+jobs: (1001 1002 1003)
+load: 2.14
+free memory: 32
+number of remote jobs: 1
+	usage table
+4: mailbox empty
+jobs: (1009)
+load: 0.49
+free memory: 32
+number of remote jobs: 1
+	usage table
+3: mailbox empty
+jobs: (1010)
+load: 0.39
+free memory: 32
+number of remote jobs: 3
+	usage table
+2: mailbox empty
+jobs: ()
+load: 0.46
+free memory: 32
+number of remote jobs: 2
+	usage table
+1: mailbox empty
+jobs: (1007 1008)
+load: 0.88
+free memory: 32
+number of remote jobs: 0
+	usage table
+ds> (show-stats)
+0: mailbox empty
+jobs: ()
+load: 0.
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (33 32 17719)
+	4 (6 32 17730)
+	3 (5 32 17740)
+	2 (2 32 17751)
+	1 (11 32 17764)
+5: mailbox empty
+jobs: (1001 1002 1003)
+load: 2.4
+free memory: 32
+number of remote jobs: 1
+	usage table
+4: mailbox empty
+jobs: (1009)
+load: 0.59
+free memory: 32
+number of remote jobs: 1
+	usage table
+3: mailbox empty
+jobs: (1010)
+load: 0.42
+free memory: 32
+number of remote jobs: 3
+	usage table
+2: mailbox empty
+jobs: ()
+load: 0.44
+free memory: 32
+number of remote jobs: 2
+	usage table
+1: mailbox empty
+jobs: (1007 1008)
+load: 1.22
+free memory: 32
+number of remote jobs: 1
+	usage table
+ds> (show-stats)
+0: mailbox empty
+jobs: ()
+load: 0.
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (34 32 17719)
+	4 (7 32 17730)
+	3 (6 32 17740)
+	2 (3 32 17751)
+	1 (13 32 17764)
+5: mailbox empty
+jobs: ()
+load: 2.69
+free memory: 32
+number of remote jobs: 1
+	usage table
+4: mailbox empty
+jobs: ()
+load: 0.64
+free memory: 32
+number of remote jobs: 0
+	usage table
+3: mailbox empty
+jobs: (1010)
+load: 0.52
+free memory: 32
+number of remote jobs: 1
+	usage table
+2: mailbox empty
+jobs: (1011)
+load: 0.46
+free memory: 32
+number of remote jobs: 1
+	usage table
+1: mailbox empty
+jobs: (1007 1008)
+load: 1.54
+free memory: 32
+number of remote jobs: 2
+	usage table
+ds> (show-stats)
+0: mailbox empty
+jobs: ()
+load: 0.
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (33 32 17719)
+	4 (6 32 17730)
+	3 (7 32 17740)
+	2 (5 32 17751)
+	1 (15 32 17764)
+5: mailbox empty
+jobs: ()
+load: 2.46
+free memory: 32
+number of remote jobs: 1
+	usage table
+4: mailbox empty
+jobs: ()
+load: 0.62
+free memory: 32
+number of remote jobs: 0
+	usage table
+3: mailbox empty
+jobs: (1010)
+load: 0.58
+free memory: 32
+number of remote jobs: 1
+	usage table
+2: mailbox empty
+jobs: (1011 1012)
+load: 0.67
+free memory: 32
+number of remote jobs: 1
+	usage table
+1: mailbox empty
+jobs: (1007 1008)
+load: 1.77
+free memory: 32
+number of remote jobs: 2
+	usage table
+ds> (show-stats)
+0: mailbox empty
+jobs: ()
+load: 0.
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (32 32 17719)
+	4 (5 32 17730)
+	3 (8 32 17740)
+	2 (7 32 17751)
+	1 (17 32 17764)
+5: mailbox empty
+jobs: ()
+load: 2.25
+free memory: 32
+number of remote jobs: 1
+	usage table
+4: mailbox empty
+jobs: (1013)
+load: 0.58
+free memory: 32
+number of remote jobs: 0
+	usage table
+3: mailbox empty
+jobs: ()
+load: 0.67
+free memory: 32
+number of remote jobs: 1
+	usage table
+2: mailbox empty
+jobs: (1011 1012)
+load: 0.67
+free memory: 32
+number of remote jobs: 1
+	usage table
+1: mailbox empty
+jobs: (1007 1008)
+load: 1.77
+free memory: 32
+number of remote jobs: 2
+	usage table
+ds> (show-stats)
+0: mailbox empty
+jobs: ()
+load: 0.
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (30 32 17719)
+	4 (8 32 17730)
+	3 (6 32 17740)
+	2 (11 32 17751)
+	1 (21 32 17764)
+5: mailbox empty
+jobs: ()
+load: 2.07
+free memory: 32
+number of remote jobs: 2
+	usage table
+4: mailbox empty
+jobs: (1013 1014)
+load: 0.62
+free memory: 32
+number of remote jobs: 0
+	usage table
+3: mailbox empty
+jobs: ()
+load: 0.6
+free memory: 32
+number of remote jobs: 1
+	usage table
+2: mailbox empty
+jobs: (1011 1012)
+load: 1.13
+free memory: 32
+number of remote jobs: 0
+	usage table
+1: mailbox empty
+jobs: (1008)
+load: 2.13
+free memory: 32
+number of remote jobs: 2
+	usage table
+ds> (show-stats)
+0: mailbox empty
+jobs: ()
+load: 0.
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (28 32 17719)
+	4 (12 32 17730)
+	3 (6 32 17740)
+	2 (15 32 17751)
+	1 (21 32 17764)
+5: mailbox empty
+jobs: ()
+load: 1.79
+free memory: 32
+number of remote jobs: 3
+	usage table
+4: mailbox empty
+jobs: (1013 1014)
+load: 1.02
+free memory: 32
+number of remote jobs: 0
+	usage table
+3: mailbox empty
+jobs: (1015)
+load: 0.63
+free memory: 32
+number of remote jobs: 0
+	usage table
+2: mailbox empty
+jobs: (1012)
+load: 1.34
+free memory: 32
+number of remote jobs: 0
+	usage table
+1: mailbox empty
+jobs: ()
+load: 2.04
+free memory: 32
+number of remote jobs: 1
+	usage table
+ds> (show-stats)
+0: mailbox empty
+jobs: ()
+load: 0.
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (27 32 17719)
+	4 (14 32 17730)
+	3 (8 32 17740)
+	2 (16 32 17751)
+	1 (20 32 17764)
+5: mailbox empty
+jobs: ()
+load: 1.64
+free memory: 32
+number of remote jobs: 4
+	usage table
+4: mailbox empty
+jobs: (1013 1014)
+load: 1.17
+free memory: 32
+number of remote jobs: 0
+	usage table
+3: mailbox empty
+jobs: (1015 1016 1017 1018)
+load: 1.06
+free memory: 32
+number of remote jobs: 0
+	usage table
+2: mailbox empty
+jobs: ()
+load: 1.3
+free memory: 32
+number of remote jobs: 1
+	usage table
+1: mailbox empty
+jobs: ()
+load: 1.62
+free memory: 32
+number of remote jobs: 1
+	usage table
+ds> (show-stats)
+0: mailbox empty
+jobs: ()
+load: 0.
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (25 32 17719)
+	4 (18 32 17730)
+	3 (15 32 17740)
+	2 (14 32 17751)
+	1 (18 32 17764)
+5: mailbox empty
+jobs: ()
+load: 1.4
+free memory: 32
+number of remote jobs: 4
+	usage table
+4: mailbox empty
+jobs: (1014)
+load: 1.54
+free memory: 32
+number of remote jobs: 0
+	usage table
+3: mailbox empty
+jobs: (1015 1016 1017 1018)
+load: 1.56
+free memory: 32
+number of remote jobs: 0
+	usage table
+2: mailbox empty
+jobs: (1019)
+load: 1.21
+free memory: 32
+number of remote jobs: 1
+	usage table
+1: mailbox empty
+jobs: ()
+load: 1.5
+free memory: 32
+number of remote jobs: 1
+	usage table
+ds> (show-stats)
+0: mailbox empty
+jobs: ()
+load: 0.
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (23 32 17719)
+	4 (18 32 17730)
+	3 (23 32 17740)
+	2 (16 32 17751)
+	1 (16 32 17764)
+5: mailbox empty
+jobs: ()
+load: 1.3
+free memory: 32
+number of remote jobs: 3
+	usage table
+4: mailbox empty
+jobs: ()
+load: 1.47
+free memory: 32
+number of remote jobs: 0
+	usage table
+3: mailbox empty
+jobs: (1015 1016 1017 1018)
+load: 2.01
+free memory: 32
+number of remote jobs: 0
+	usage table
+2: mailbox empty
+jobs: (1019)
+load: 1.16
+free memory: 32
+number of remote jobs: 1
+	usage table
+1: mailbox empty
+jobs: ()
+load: 1.37
+free memory: 32
+number of remote jobs: 1
+	usage table
+ds> (show-stats)
+0: mailbox empty
+jobs: ()
+load: 0.
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (22 32 17719)
+	4 (17 32 17730)
+	3 (27 32 17740)
+	2 (18 32 17751)
+	1 (15 32 17764)
+5: mailbox empty
+jobs: ()
+load: 1.19
+free memory: 32
+number of remote jobs: 3
+	usage table
+4: mailbox empty
+jobs: ()
+load: 1.35
+free memory: 32
+number of remote jobs: 0
+	usage table
+3: mailbox empty
+jobs: (1015 1016 1017 1018)
+load: 2.01
+free memory: 32
+number of remote jobs: 1
+	usage table
+2: mailbox empty
+jobs: (1019 1020)
+load: 1.16
+free memory: 32
+number of remote jobs: 1
+	usage table
+1: mailbox empty
+jobs: ()
+load: 1.26
+free memory: 32
+number of remote jobs: 1
+	usage table
+ds> (show-stats)
+0: mailbox empty
+jobs: ()
+load: 0.
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (20 32 17719)
+	4 (15 32 17730)
+	3 (35 32 17740)
+	2 (22 32 17751)
+	1 (15 32 17764)
+5: mailbox empty
+jobs: ()
+load: 1.02
+free memory: 32
+number of remote jobs: 3
+	usage table
+4: mailbox empty
+jobs: ()
+load: 1.24
+free memory: 32
+number of remote jobs: 0
+	usage table
+3: mailbox empty
+jobs: (1015 1016 1017 1018)
+load: 2.84
+free memory: 32
+number of remote jobs: 1
+	usage table
+2: mailbox empty
+jobs: (1019 1020)
+load: 1.38
+free memory: 32
+number of remote jobs: 2
+	usage table
+1: mailbox empty
+jobs: (1021)
+load: 1.19
+free memory: 32
+number of remote jobs: 1
+	usage table
+ds> (show-stats)
+0: mailbox empty
+jobs: ()
+load: 0.
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (19 32 17719)
+	4 (16 32 17730)
+	3 (39 32 17740)
+	2 (24 32 17751)
+	1 (16 32 17764)
+5: mailbox empty
+jobs: ()
+load: 0.96
+free memory: 32
+number of remote jobs: 3
+	usage table
+4: mailbox empty
+jobs: (1022)
+load: 1.16
+free memory: 32
+number of remote jobs: 0
+	usage table
+3: mailbox empty
+jobs: (1015 1016 1017 1018)
+load: 3.11
+free memory: 32
+number of remote jobs: 1
+	usage table
+2: mailbox empty
+jobs: (1019 1020)
+load: 1.5
+free memory: 32
+number of remote jobs: 2
+	usage table
+1: mailbox empty
+jobs: (1021)
+load: 1.29
+free memory: 32
+number of remote jobs: 2
+	usage table
+ds> (show-stats)
+0: mailbox empty
+jobs: ()
+load: 0.
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (18 32 17719)
+	4 (18 32 17730)
+	3 (43 32 17740)
+	2 (26 32 17751)
+	1 (17 32 17764)
+5: mailbox empty
+jobs: ()
+load: 0.84
+free memory: 32
+number of remote jobs: 2
+	usage table
+4: mailbox empty
+jobs: (1022 1023)
+load: 1.25
+free memory: 32
+number of remote jobs: 0
+	usage table
+3: mailbox empty
+jobs: (1015 1016 1017 1018)
+load: 3.47
+free memory: 32
+number of remote jobs: 1
+	usage table
+2: mailbox empty
+jobs: (1020)
+load: 1.54
+free memory: 32
+number of remote jobs: 2
+	usage table
+1: mailbox empty
+jobs: (1021 1024)
+load: 1.29
+free memory: 32
+number of remote jobs: 2
+	usage table
+ds> (show-stats)
+0: mailbox empty
+jobs: ()
+load: 0.
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (18 32 17719)
+	4 (22 32 17730)
+	3 (50 32 17740)
+	2 (26 32 17751)
+	1 (21 32 17764)
+5: mailbox empty
+jobs: (1025)
+load: 0.83
+free memory: 32
+number of remote jobs: 1
+	usage table
+4: mailbox empty
+jobs: (1022 1023)
+load: 1.41
+free memory: 32
+number of remote jobs: 0
+	usage table
+3: mailbox empty
+jobs: (1016 1017 1018)
+load: 3.47
+free memory: 32
+number of remote jobs: 0
+	usage table
+2: mailbox empty
+jobs: ()
+load: 1.46
+free memory: 32
+number of remote jobs: 3
+	usage table
+1: mailbox empty
+jobs: (1021 1024)
+load: 1.52
+free memory: 32
+number of remote jobs: 2
+	usage table
+ds> (show-stats)
+0: mailbox empty
+jobs: ()
+load: 0.
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (21 32 17719)
+	4 (26 32 17730)
+	3 (56 32 17740)
+	2 (24 32 17751)
+	1 (25 32 17764)
+5: mailbox empty
+jobs: (1025 1026)
+load: 0.86
+free memory: 32
+number of remote jobs: 1
+	usage table
+4: mailbox empty
+jobs: (1022 1023)
+load: 1.52
+free memory: 32
+number of remote jobs: 0
+	usage table
+3: mailbox empty
+jobs: (1016 1017 1018)
+load: 3.66
+free memory: 32
+number of remote jobs: 0
+	usage table
+2: mailbox empty
+jobs: ()
+load: 1.36
+free memory: 32
+number of remote jobs: 4
+	usage table
+1: mailbox empty
+jobs: (1021 1024)
+load: 1.92
+free memory: 32
+number of remote jobs: 2
+	usage table
+ds> (show-stats)
+0: mailbox empty
+jobs: ()
+load: 0.
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (24 32 17719)
+	4 (28 32 17730)
+	3 (59 32 17740)
+	2 (23 32 17751)
+	1 (27 32 17764)
+5: mailbox empty
+jobs: (1025 1026 1027)
+load: 1.04
+free memory: 32
+number of remote jobs: 1
+	usage table
+4: mailbox empty
+jobs: (1023)
+load: 1.61
+free memory: 32
+number of remote jobs: 0
+	usage table
+3: mailbox empty
+jobs: (1016 1017 1018)
+load: 3.66
+free memory: 32
+number of remote jobs: 0
+	usage table
+2: mailbox empty
+jobs: ()
+load: 1.25
+free memory: 32
+number of remote jobs: 4
+	usage table
+1: mailbox empty
+jobs: (1021 1024)
+load: 1.92
+free memory: 32
+number of remote jobs: 1
+	usage table
+ds> (show-stats)
+0: mailbox empty
+jobs: ()
+load: 0.
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (30 32 17719)
+	4 (28 32 17730)
+	3 (60 32 17740)
+	2 (26 32 17751)
+	1 (31 32 17764)
+5: mailbox empty
+jobs: (1025 1026 1027)
+load: 1.69
+free memory: 32
+number of remote jobs: 1
+	usage table
+4: mailbox empty
+jobs: ()
+load: 1.55
+free memory: 32
+number of remote jobs: 0
+	usage table
+3: mailbox empty
+jobs: ()
+load: 3.48
+free memory: 32
+number of remote jobs: 1
+	usage table
+2: mailbox empty
+jobs: (1028 1029)
+load: 1.24
+free memory: 32
+number of remote jobs: 2
+	usage table
+1: mailbox empty
+jobs: (1024)
+load: 2.26
+free memory: 32
+number of remote jobs: 0
+	usage table
+ds> (show-stats)
+0: mailbox empty
+jobs: ()
+load: 0.
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (36 32 17719)
+	4 (28 32 17730)
+	3 (58 32 17740)
+	2 (30 32 17751)
+	1 (33 32 17764)
+5: mailbox empty
+jobs: (1025 1026 1027)
+load: 1.94
+free memory: 32
+number of remote jobs: 2
+	usage table
+4: mailbox empty
+jobs: (1030)
+load: 1.43
+free memory: 32
+number of remote jobs: 0
+	usage table
+3: mailbox empty
+jobs: ()
+load: 3.18
+free memory: 32
+number of remote jobs: 1
+	usage table
+2: mailbox empty
+jobs: (1028 1029)
+load: 1.44
+free memory: 32
+number of remote jobs: 2
+	usage table
+1: mailbox empty
+jobs: (1024)
+load: 2.23
+free memory: 32
+number of remote jobs: 0
+	usage table
+ds> (show-stats)
+0: mailbox empty
+jobs: ()
+load: 0.
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (39 32 17719)
+	4 (29 32 17730)
+	3 (57 32 17740)
+	2 (32 32 17751)
+	1 (32 32 17764)
+5: mailbox empty
+jobs: (1026 1027)
+load: 2.21
+free memory: 32
+number of remote jobs: 2
+	usage table
+4: mailbox empty
+jobs: (1030)
+load: 1.36
+free memory: 32
+number of remote jobs: 0
+	usage table
+3: mailbox empty
+jobs: ()
+load: 2.92
+free memory: 32
+number of remote jobs: 1
+	all processes created
+usage table
+2: mailbox empty
+jobs: (1028 1029)
+load: 1.57
+free memory: 32
+number of remote jobs: 1
+	usage table
+1: mailbox empty
+jobs: ()
+load: 2.18
+free memory: 32
+number of remote jobs: 0
+	usage table
+ds> (show-stats)
+0: mailbox empty
+jobs: ()
+load: 0.
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (37 32 17719)
+	4 (22 32 17730)
+	3 (46 32 17740)
+	2 (29 32 17751)
+	1 (21 32 17764)
+5: mailbox empty
+jobs: ()
+load: 1.28
+free memory: 32
+number of remote jobs: 0
+	usage table
+4: mailbox empty
+jobs: ()
+load: 0.74
+free memory: 32
+number of remote jobs: 0
+	usage table
+3: mailbox empty
+jobs: ()
+load: 1.17
+free memory: 32
+number of remote jobs: 0
+	usage table
+2: mailbox empty
+jobs: ()
+load: 0.99
+free memory: 32
+number of remote jobs: 0
+	usage table
+1: mailbox empty
+jobs: ()
+load: 0.94
+free memory: 32
+number of remote jobs: 0
+	usage table
+ds> (show-stats)
+0: mailbox empty
+jobs: ()
+load: 0.
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (36 32 17719)
+	4 (21 32 17730)
+	3 (45 32 17740)
+	2 (28 32 17751)
+	1 (20 32 17764)
+5: mailbox empty
+jobs: ()
+load: 1.19
+free memory: 32
+number of remote jobs: 0
+	usage table
+4: mailbox empty
+jobs: ()
+load: 0.68
+free memory: 32
+number of remote jobs: 0
+	usage table
+3: mailbox empty
+jobs: ()
+load: 1.17
+free memory: 32
+number of remote jobs: 0
+	usage table
+2: mailbox empty
+jobs: ()
+load: 0.92
+free memory: 32
+number of remote jobs: 0
+	usage table
+1: mailbox empty
+jobs: ()
+load: 0.9
+free memory: 32
+number of remote jobs: 0
+	usage table
+ds> (show-stats)
+0: mailbox empty
+jobs: ()
+load: 0.
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (35 32 17719)
+	4 (20 32 17730)
+	3 (44 32 17740)
+	2 (27 32 17751)
+	1 (19 32 17764)
+5: mailbox empty
+jobs: ()
+load: 1.14
+free memory: 32
+number of remote jobs: 0
+	usage table
+4: mailbox empty
+jobs: ()
+load: 0.68
+free memory: 32
+number of remote jobs: 0
+	usage table
+3: mailbox empty
+jobs: ()
+load: 1.07
+free memory: 32
+number of remote jobs: 0
+	usage table
+2: mailbox empty
+jobs: ()
+load: 0.87
+free memory: 32
+number of remote jobs: 0
+	usage table
+1: mailbox empty
+jobs: ()
+load: 0.9
+free memory: 32
+number of remote jobs: 0
+	usage table
+ds> (show-stats)
+0: mailbox empty
+jobs: ()
+load: 0.
+free memory: 32
+number of remote jobs: 0
+	usage table
+	5 (34 32 17719)
+	4 (19 32 17730)
+	3 (43 32 17740)
+	2 (26 32 17751)
+	1 (18 32 17764)
+5: mailbox empty
+jobs: ()
+load: 1.07
+free memory: 32
+number of remote jobs: 0
+	usage table
+4: mailbox empty
+jobs: ()
+load: 0.63
+free memory: 32
+number of remote jobs: 0
+	usage table
+3: mailbox empty
+jobs: ()
+load: 0.98
+free memory: 32
+number of remote jobs: 0
+	usage table
+2: mailbox empty
+jobs: ()
+load: 0.81
+free memory: 32
+number of remote jobs: 0
+	usage table
+1: mailbox empty
+jobs: ()
+load: 0.86
+free memory: 32
+number of remote jobs: 0
+	usage table
+ds> (shutdown-ds #t)
+Writing user log
+Making gnuplot data. . .Be patient
+Writing /tmp/data5.ds
+Writing /tmp/data4.ds
+Writing /tmp/data3.ds
+Writing /tmp/data2.ds
+Writing /tmp/data1.ds
+Writing /tmp/max-unfair-data.ds
+Writing /tmp/avg-load-data.ds
+Writing /tmp/stddev-data.ds
+Writing message counts to /tmp/msg-type-counts.ds
+Writing message sizes to /tmp/msg-type-sizes.ds
+Writing hop count stats to /tmp/process-hop-counts.ds
+Writing process stats to /tmp/process-data-stats.ds
+0
+ds> ,exit
+
+Process scheme finished

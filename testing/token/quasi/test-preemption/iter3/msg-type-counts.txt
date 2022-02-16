@@ -1,0 +1,13 @@
+Message Type Counts for /home/stu93/allen/thesis/testing/token/quasi/test-preemption/iter3
+
+
+Message Type	 Count
+------------	 -----
+accept	50
+add-processor	15
+create	50
+done	44
+log	481
+request	50
+shutdown	3
+token	50

@@ -1,0 +1,1637 @@
+Time	Header		Machine	M-load	Jobs	Data
+	Usage Table
+=======	=======		=======	=======	=======	=======
+292916	 	 	distributed system started
+3296	processor	
+3350	msg	
+4155	processor	
+4206	msg	
+4248	msg	
+6464	processor	
+6721	msg	
+6732	msg	
+6941	msg	
+8088	processor	
+8168	msg	
+8183	msg	
+8183	msg	
+8204	msg	
+8908	processor	
+8967	msg	
+8980	msg	
+8980	msg	
+8980	msg	
+8990	msg	
+9157	msg	
+9176	msg	
+9186	msg	
+9196	msg	
+9180	log	5	0.	()	()
+	(5 (0 32 9039))
+	(4 (0 32 9061))
+	(3 (0 32 9078))
+	(2 (0 32 9096))
+	(1 (0 32 9106))
+
+9198	msg	
+9219	log	4	0.	()	()
+	(4 (0 32 8459))
+	(3 (0 32 8483))
+	(2 (0 32 8507))
+	(1 (0 32 8523))
+
+9220	log	3	0.	()	()
+	(3 (0 32 6930))
+	(2 (0 32 6954))
+	(1 (0 32 6972))
+
+9220	log	1	0.	()	()
+	(1 (0 32 3346))
+
+9255	process-create	
+9254	log	2	0.	()	()
+	(2 (0 32 4243))
+	(1 (0 32 4260))
+
+9314	msg	
+9328	token	
+9704	msg	
+9709	msg	
+9735	token	
+10164	msg	
+10183	token	
+10787	msg	
+10806	token	
+11215	msg	
+11227	token	
+11606	msg	
+11625	token	
+11674	msg	
+11699	process-running	
+12016	msg	
+12027	msg	
+12055	token	
+12485	msg	
+12696	token	
+13311	msg	
+13333	token	
+13938	msg	
+13949	token	
+14327	msg	
+14344	token	
+14703	msg	
+14728	token	
+15154	msg	
+15202	msg	
+15214	log	5	0.	()	()
+
+15232	msg	
+15257	log	4	0.	()	()
+
+15367	token	
+15385	msg	
+15396	msg	
+15404	log	1	0.	(1001)	()
+
+15423	log	2	0.	()	()
+
+15799	msg	
+15819	token	
+16004	msg	
+16023	log	3	0.	()	()
+
+16225	msg	
+16238	token	
+16617	msg	
+16634	token	
+16993	msg	
+17017	token	
+17380	process-create	
+17388	msg	
+17454	msg	
+17472	token	
+19472	msg	
+19491	token	
+19906	msg	
+19918	token	
+20297	msg	
+20314	token	
+20676	msg	
+20689	msg	
+20705	process-running	
+20707	msg	
+20726	token	
+21154	msg	
+21173	token	
+21404	msg	
+21415	log	5	0.	(1002)	()
+
+21433	msg	
+21448	msg	
+21455	msg	
+21461	log	1	0.	(1001)	()
+
+21467	log	4	0.	()	()
+
+21484	log	2	0.	()	()
+
+22171	msg	
+22185	msg	
+22191	token	
+22275	process-create	
+22382	msg	
+22399	log	3	0.	()	()
+
+22799	msg	
+22811	token	
+23185	msg	
+23203	token	
+23711	msg	
+23737	token	
+23803	msg	
+23828	process-running	
+24194	msg	
+24220	msg	
+24213	token	
+24693	process-create	
+24779	msg	
+25209	msg	
+25230	token	
+25281	msg	
+25306	process-running	
+25658	msg	
+25669	token	
+25694	msg	
+26046	msg	
+26063	token	
+26433	msg	
+26458	token	
+26885	msg	
+27098	token	
+27455	msg	
+27467	log	5	0.	(1002 1003 1004)	()
+
+27479	msg	
+27504	log	4	0.	()	()
+
+27679	msg	
+27684	msg	
+27692	log	1	0.	(1001)	()
+
+27712	log	2	0.	()	()
+
+27737	msg	
+27755	msg	
+27756	log	3	0.	()	()
+
+27773	token	
+28177	msg	
+28189	token	
+28578	msg	
+28597	token	
+28966	msg	
+28995	token	
+29426	msg	
+29640	token	
+30433	msg	
+30454	token	
+30868	msg	
+30880	token	
+30907	process-create	
+30914	msg	
+31267	msg	
+31284	token	
+31324	msg	
+31383	process-running	
+31656	msg	
+31668	msg	
+31693	token	
+32124	msg	
+32143	token	
+32552	msg	
+32572	token	
+32768	process-finished	
+32789	msg	
+32979	msg	
+32991	token	
+33373	msg	
+33390	token	
+33712	msg	
+33724	msg	
+33734	msg	
+33746	log	1	0.	()	()
+
+33751	log	4	0.	(1005)	()
+
+33773	log	2	0.	()	()
+
+33785	msg	
+33799	log	5	0.0799556	(1002 1003 1004)	()
+
+33820	msg	
+33846	token	
+33719	msg	
+33930	log	3	0.	()	()
+
+34277	msg	
+34296	token	
+35297	msg	
+35318	token	
+35729	msg	
+35740	token	
+36116	msg	
+36133	token	
+36504	msg	
+36529	token	
+37350	msg	
+37369	token	
+38173	msg	
+38192	token	
+38463	process-create	
+38802	msg	
+38813	token	
+38830	msg	
+39197	msg	
+39215	token	
+39583	msg	
+39609	token	
+39734	msg	
+39745	log	5	0.0676809	(1002 1003 1004)	()
+
+39772	msg	
+39777	msg	
+39783	msg	
+39791	log	1	0.	()	()
+
+39798	log	3	0.	()	()
+
+39811	log	2	0.	()	()
+
+40022	process-create	
+40035	msg	
+40050	msg	
+40075	msg	
+40103	log	4	0.	(1005)	()
+
+40069	token	
+40673	msg	
+40691	token	
+40752	msg	
+40814	process-running	
+40817	msg	
+40890	process-running	
+41140	msg	
+41151	token	
+41168	msg	
+41205	msg	
+41537	msg	
+41554	token	
+41923	msg	
+41949	token	
+42187	process-finished	
+42207	msg	
+42385	msg	
+42404	token	
+42814	msg	
+42834	token	
+43241	msg	
+43255	token	
+43637	msg	
+43654	token	
+44174	msg	
+44199	token	
+44639	msg	
+44658	token	
+45072	msg	
+45091	token	
+45501	msg	
+45513	token	
+45738	process-finished	
+45764	msg	
+45785	msg	
+45799	log	5	0.0622695	(1003)	()
+
+45812	msg	
+45818	msg	
+45831	msg	
+45839	log	4	0.	(1005 1006 1007)	()
+
+45845	log	3	0.	()	()
+
+45852	log	2	0.	()	()
+
+45908	msg	
+45927	msg	
+45932	token	
+45942	log	1	0.	()	()
+
+46248	process-finished	
+46282	msg	
+46339	msg	
+46364	token	
+46795	msg	
+46814	token	
+47235	msg	
+47255	token	
+47661	msg	
+47673	token	
+48046	msg	
+48063	token	
+48423	msg	
+48449	token	
+48885	msg	
+48904	token	
+49515	msg	
+49535	token	
+49760	process-create	
+49766	msg	
+49952	msg	
+49964	token	
+50347	msg	
+50364	token	
+50404	msg	
+50462	process-running	
+50726	msg	
+50738	msg	
+50763	token	
+51393	msg	
+51834	msg	
+51845	log	5	0.0572907	()	()
+
+51862	msg	
+51887	log	4	0.	(1005 1006 1007 1008)	()
+
+51803	token	
+52029	msg	
+52035	msg	
+52041	log	1	0.	()	()
+
+52059	log	2	0.	()	()
+
+52264	process-finished	
+52306	msg	
+53005	msg	
+53019	msg	
+53025	token	
+53046	log	3	0.	()	()
+
+53433	msg	
+53444	token	
+53827	msg	
+53844	token	
+54214	msg	
+54241	token	
+54665	msg	
+55284	token	
+55695	msg	
+55715	token	
+56122	msg	
+56133	token	
+56517	msg	
+56534	token	
+56893	msg	
+56918	token	
+57345	msg	
+57364	token	
+57968	msg	
+57988	token	
+58043	msg	
+58054	log	5	0.05271	()	()
+
+58072	msg	
+58087	msg	
+58101	log	1	0.	()	()
+
+58107	log	4	0.	(1006 1007 1008)	()
+
+58081	msg	
+58405	msg	
+58427	token	
+58442	msg	
+58461	log	2	0.	()	()
+
+58694	log	3	0.	()	()
+
+58817	msg	
+58837	token	
+59202	msg	
+59238	token	
+59309	process-create	
+59320	msg	
+59665	msg	
+59687	token	
+60286	msg	
+60309	token	
+60369	msg	
+60427	process-running	
+60743	msg	
+60757	token	
+60782	msg	
+61136	msg	
+61153	token	
+61513	msg	
+61538	token	
+61633	process-create	
+62604	process-finished	
+62652	msg	
+62934	process-finished	
+62982	msg	
+64103	msg	
+64114	log	5	0.0484955	()	()
+
+64131	msg	
+64157	log	4	0.	(1008 1009)	()
+
+64685	msg	
+64690	msg	
+64698	log	1	0.	()	()
+
+64716	log	2	0.	()	()
+
+65313	msg	
+65354	msg	
+65373	token	
+65631	msg	
+65690	process-running	
+67393	msg	
+67407	msg	
+67413	token	
+67593	log	3	0.	()	()
+
+67630	msg	
+67984	msg	
+67996	token	
+68380	msg	
+68399	token	
+68763	msg	
+68788	token	
+69224	msg	
+69244	token	
+69848	msg	
+69867	token	
+70274	msg	
+70286	token	
+70667	msg	
+70687	token	
+70719	msg	
+70726	msg	
+70731	msg	
+70738	msg	
+70748	log	1	0.	()	()
+
+70764	log	3	0.	()	()
+
+70763	log	4	0.	(1008 1009 1010)	()
+
+70768	log	2	0.	()	()
+
+71046	msg	
+71057	log	5	0.0410506	()	()
+
+71056	msg	
+71085	token	
+71459	process-create	
+71470	msg	
+71518	msg	
+71537	token	
+71884	process-finished	
+71926	msg	
+72334	msg	
+72354	token	
+72405	msg	
+72429	process-running	
+72977	msg	
+72989	token	
+73004	msg	
+73367	msg	
+73384	token	
+73747	msg	
+73772	token	
+74204	msg	
+74817	token	
+75695	process-create	
+75709	msg	
+76624	msg	
+76643	token	
+76744	msg	
+76755	log	5	0.0377683	()	()
+
+76773	msg	
+76787	msg	
+76799	log	1	0.	(1011)	()
+
+76804	log	4	0.	(1009 1010)	()
+
+76977	msg	
+76995	log	3	0.	()	()
+
+77060	msg	
+77071	token	
+77088	msg	
+77106	log	2	0.	()	()
+
+77457	msg	
+77630	token	
+77993	msg	
+78026	token	
+78093	msg	
+78117	process-running	
+78496	msg	
+78520	token	
+78719	msg	
+82364	process-finished	
+82412	msg	
+82715	msg	
+82734	token	
+82804	msg	
+82815	log	5	0.0347486	()	()
+
+82833	msg	
+82842	msg	
+82848	msg	
+82868	log	1	0.	(1011 1012)	()
+
+82867	log	4	0.	(1010)	()
+
+82872	log	3	0.	()	()
+
+83146	msg	
+83157	token	
+83181	msg	
+83200	log	2	0.	()	()
+
+83547	msg	
+83570	token	
+83933	msg	
+83958	token	
+84388	msg	
+84406	token	
+85304	process-create	
+85311	msg	
+85318	msg	
+85643	token	
+86058	msg	
+86069	token	
+86454	msg	
+86468	token	
+86499	msg	
+86523	process-running	
+86523	msg	
+86843	msg	
+86868	token	
+87223	process-finished	
+87278	msg	
+87519	msg	
+87537	token	
+88145	msg	
+88165	token	
+88581	msg	
+88592	token	
+88854	msg	
+88865	log	5	0.0319702	()	()
+
+88883	msg	
+88892	msg	
+88900	msg	
+88908	log	4	0.	()	()
+
+88920	log	2	0.	()	()
+
+88981	msg	
+89000	msg	
+89004	token	
+89014	log	1	0.	(1011 1012 1013)	()
+
+89393	msg	
+89418	token	
+88914	log	3	0.	()	()
+
+90038	msg	
+90449	token	
+90861	msg	
+90880	token	
+91289	msg	
+91300	token	
+91677	msg	
+91695	token	
+92062	msg	
+92087	token	
+92563	process-create	
+92573	msg	
+92812	msg	
+92831	token	
+92891	msg	
+92950	process-running	
+93465	process-create	
+93479	msg	
+93560	msg	
+93574	msg	
+93580	token	
+93728	process-finished	
+93989	msg	
+94000	token	
+94024	msg	
+94377	msg	
+94398	token	
+94763	msg	
+94788	token	
+94903	msg	
+94915	log	5	0.0270622	()	()
+
+94942	msg	
+94947	msg	
+94953	msg	
+94961	log	1	0.	(1012 1013)	()
+
+94967	log	3	0.	()	()
+
+94981	log	2	0.	()	()
+
+95277	msg	
+95349	process-running	
+95351	msg	
+95389	log	4	0.	(1014 1015)	()
+
+95440	msg	
+95255	msg	
+95476	token	
+96677	msg	
+96702	token	
+97108	msg	
+97120	token	
+97497	msg	
+97518	token	
+97883	msg	
+97911	token	
+98334	msg	
+98353	token	
+98762	msg	
+98781	token	
+99017	process-finished	
+99050	msg	
+99188	msg	
+99199	token	
+99577	msg	
+99594	token	
+99953	msg	
+99978	token	
+100600	msg	
+100810	token	
+100963	msg	
+100975	log	5	0.0248984	()	()
+
+100992	msg	
+101006	msg	
+101013	msg	
+101020	log	1	0.	(1013)	()
+
+101026	log	4	0.	(1014 1015)	()
+
+101039	log	2	0.	()	()
+
+101222	msg	
+101237	msg	
+101243	token	
+101451	log	3	0.	()	()
+
+101650	msg	
+101662	token	
+102046	msg	
+102063	token	
+102437	msg	
+102462	token	
+102894	msg	
+102913	token	
+103202	process-create	
+103212	msg	
+105530	process-create	
+105546	msg	
+106309	msg	
+106329	token	
+106381	msg	
+106405	process-running	
+106771	msg	
+106783	token	
+106800	msg	
+106829	msg	
+106886	process-running	
+107023	msg	
+107034	log	5	0.0229077	()	()
+
+107052	msg	
+107061	msg	
+107068	msg	
+107077	log	4	0.	(1014 1015 1017)	()
+
+107083	log	3	0.	()	()
+
+107088	log	2	0.	()	()
+
+107176	msg	
+107195	msg	
+107200	token	
+107235	msg	
+107245	log	1	0.	(1013 1016)	()
+
+107573	msg	
+107598	token	
+108033	msg	
+108052	token	
+108465	msg	
+108485	token	
+108902	msg	
+108913	token	
+109127	process-finished	
+109297	msg	
+109320	msg	
+109325	token	
+109703	msg	
+109728	token	
+110196	msg	
+110214	token	
+110815	msg	
+110835	token	
+111434	msg	
+111445	token	
+111827	msg	
+111844	token	
+112212	msg	
+112238	token	
+112665	msg	
+112684	token	
+113083	msg	
+113094	log	5	0.0210761	()	()
+
+113111	msg	
+113126	msg	
+113133	msg	
+113140	log	1	0.	(1016)	()
+
+113154	log	4	0.	(1014 1015 1017)	()
+
+113159	log	2	0.	()	()
+
+113284	msg	
+113299	msg	
+113305	token	
+113326	log	3	0.	()	()
+
+113771	msg	
+113782	token	
+114159	msg	
+114180	token	
+114413	process-create	
+114423	msg	
+114553	msg	
+114578	token	
+114630	process-finished	
+114679	msg	
+115013	msg	
+115032	token	
+116231	msg	
+116250	token	
+116302	msg	
+116330	process-running	
+116875	msg	
+116886	token	
+117089	msg	
+117457	msg	
+117476	token	
+117476	process-finished	
+117537	msg	
+117843	msg	
+117868	token	
+118294	msg	
+118504	token	
+118915	msg	
+118935	token	
+119143	msg	
+119154	log	5	0.0193909	()	()
+
+119172	msg	
+119181	msg	
+119187	msg	
+119204	log	1	0.	(1016 1018)	()
+
+119204	log	4	0.	(1017)	()
+
+119352	msg	
+119364	token	
+119382	msg	
+119401	log	2	0.	()	()
+
+119749	msg	
+119767	token	
+119403	log	3	0.	()	()
+
+120132	msg	
+120157	token	
+120584	msg	
+120794	token	
+122340	process-create	
+122347	msg	
+122401	msg	
+122420	token	
+122833	msg	
+122844	token	
+122885	msg	
+122943	process-running	
+123238	msg	
+123257	msg	
+123262	token	
+123636	msg	
+123663	token	
+124093	msg	
+124112	token	
+125193	msg	
+125204	log	5	0.0164141	()	()
+
+125221	msg	
+125246	log	4	0.	(1017 1019)	()
+
+125313	msg	
+125333	msg	
+125346	log	1	0.	(1016 1018)	()
+
+125345	token	
+125346	msg	
+125574	log	3	0.	()	()
+
+125764	msg	
+125777	token	
+125793	msg	
+125812	log	2	0.	()	()
+
+126156	msg	
+126174	token	
+126543	msg	
+126568	token	
+126738	process-finished	
+126764	msg	
+126994	msg	
+127012	token	
+127628	msg	
+127648	token	
+127833	process-finished	
+127876	msg	
+127993	process-create	
+128058	msg	
+128069	token	
+128450	msg	
+128468	token	
+128194	msg	
+128833	msg	
+128871	token	
+129294	msg	
+129313	token	
+129965	msg	
+129990	process-running	
+130543	msg	
+130557	msg	
+130572	token	
+130985	msg	
+130996	token	
+131345	msg	
+131365	log	5	0.0151017	()	()
+
+131388	msg	
+131407	msg	
+131408	msg	
+131433	msg	
+131432	msg	
+131433	log	4	0.	(1019)	()
+
+131441	log	3	0.	()	()
+
+131442	token	
+131455	log	1	0.	(1018 1020)	()
+
+131491	log	2	0.	()	()
+
+131843	msg	
+131868	token	
+132295	msg	
+132515	token	
+132928	msg	
+132949	token	
+133355	msg	
+133366	token	
+133757	msg	
+133790	token	
+134152	msg	
+134177	token	
+134604	msg	
+134623	token	
+135027	msg	
+135047	token	
+135455	msg	
+135466	token	
+136006	msg	
+136024	token	
+136393	msg	
+136419	token	
+136844	msg	
+137159	process-create	
+137166	msg	
+137434	msg	
+137445	log	5	0.0138942	()	()
+
+137462	msg	
+137487	log	4	0.	(1019)	()
+
+138338	process-finished	
+138364	msg	
+143843	process-finished	
+143887	msg	
+145285	process-create	
+145299	msg	
+137055	token	
+149486	msg	
+149502	log	1	0.0799556	(1020)	()
+
+149496	msg	
+149528	log	2	0.	()	()
+
+150065	msg	
+150079	msg	
+150085	token	
+150106	log	3	0.	()	()
+
+150498	msg	
+150509	token	
+150550	msg	
+150609	process-running	
+150900	msg	
+150920	msg	
+150924	token	
+151132	process-create	
+151142	msg	
+151293	msg	
+151319	token	
+151628	process-finished	
+151811	msg	
+151850	msg	
+151878	process-running	
+151878	msg	
+152090	msg	
+152109	token	
+152365	msg	
+152407	process-running	
+153517	msg	
+153535	token	
+153948	msg	
+153960	token	
+154338	msg	
+154356	token	
+154723	msg	
+154749	token	
+155503	msg	
+155515	log	5	0.00995563	()	()
+
+155532	msg	
+155556	log	4	0.	(1021 1022)	()
+
+155923	process-create	
+155933	msg	
+159131	msg	
+159136	msg	
+159143	log	1	0.221199	()	()
+
+159143	msg	
+159165	log	2	0.	(1023)	()
+
+159200	msg	
+159218	token	
+165143	msg	
+165154	log	5	0.00842726	()	()
+
+165174	process-create	
+165173	msg	
+165181	msg	
+165214	log	4	0.	(1021 1022)	()
+
+166019	msg	
+166036	msg	
+166050	log	1	0.283469	()	()
+
+166055	msg	
+166062	token	
+166083	log	3	0.	()	()
+
+166503	msg	
+166514	token	
+166536	msg	
+166554	log	2	0.	(1023)	()
+
+166593	msg	
+166635	process-running	
+166640	msg	
+167095	msg	
+167112	token	
+167149	msg	
+167191	process-running	
+167476	msg	
+167488	msg	
+167514	token	
+171483	process-finished	
+171536	msg	
+172043	msg	
+172054	log	5	0.00775345	()	()
+
+172071	msg	
+172096	log	4	0.	(1021)	()
+
+172250	process-create	
+172256	msg	
+166711	msg	
+172335	msg	
+172340	msg	
+172348	log	1	0.340759	()	()
+
+172347	log	3	0.	()	()
+
+172369	log	2	0.	(1023 1024 1025)	()
+
+172397	msg	
+172416	token	
+172923	process-finished	
+172967	msg	
+173022	msg	
+173036	msg	
+173042	token	
+173065	log	3	0.	()	()
+
+173463	msg	
+173484	token	
+173867	msg	
+173884	token	
+173924	msg	
+173992	process-running	
+174061	process-finished	
+174104	msg	
+174260	msg	
+174272	msg	
+174297	token	
+174731	msg	
+174942	token	
+175550	msg	
+175569	token	
+175982	msg	
+175992	process-create	
+176003	msg	
+176006	token	
+176397	msg	
+176414	token	
+176451	msg	
+176498	process-running	
+176776	msg	
+176788	msg	
+176816	token	
+177244	msg	
+177453	token	
+177865	msg	
+178040	token	
+178354	msg	
+178365	log	5	0.00713352	()	()
+
+178385	msg	
+178400	msg	
+178417	log	1	0.393469	()	()
+
+178430	log	4	0.	(1026)	()
+
+178479	msg	
+178491	token	
+178508	msg	
+178526	log	2	0.	(1024 1025 1027)	()
+
+178877	msg	
+178895	token	
+178395	msg	
+179002	log	3	0.	()	()
+
+179266	msg	
+179291	token	
+179913	msg	
+179932	token	
+180346	msg	
+180366	token	
+180773	msg	
+180784	token	
+180979	process-create	
+181166	msg	
+181185	msg	
+181190	token	
+181563	msg	
+181606	token	
+182032	msg	
+182061	token	
+183061	msg	
+183089	token	
+183503	msg	
+183524	token	
+183560	msg	
+183602	process-running	
+183917	msg	
+183942	msg	
+183947	token	
+184333	msg	
+184364	token	
+184409	msg	
+184421	log	5	0.00656315	()	()
+
+184448	msg	
+184453	msg	
+184459	msg	
+184467	log	1	0.486583	()	()
+
+184474	log	3	0.	()	()
+
+184487	log	2	0.	(1024 1025 1027 1028)	()
+
+184803	msg	
+184821	token	
+184827	msg	
+184862	log	4	0.	(1026)	()
+
+185235	msg	
+185254	token	
+185664	msg	
+185676	token	
+186057	msg	
+186205	token	
+186588	msg	
+186622	token	
+187054	msg	
+187072	token	
+187682	msg	
+187739	process-finished	
+187851	token	
+188139	process-create	
+188146	msg	
+188516	msg	
+188526	token	
+188623	msg	
+188907	msg	
+188924	token	
+188949	process-finished	
+188966	msg	
+189025	process-running	
+189299	msg	
+189310	msg	
+189318	msg	
+189338	token	
+189773	msg	
+190474	msg	
+190485	log	5	0.0855112	()	()
+
+190502	msg	
+190527	log	4	0.	(1026 1029)	()
+
+189985	token	
+191416	msg	
+191422	msg	
+191428	log	1	0.527633	()	()
+
+191447	log	2	0.	(1027 1028)	()
+
+195310	process-create	
+195316	msg	
+197155	process-finished	
+197188	msg	
+197423	msg	
+197434	log	5	0.0786741	()	()
+
+198899	msg	
+198947	log	4	0.0799556	(1026 1029)	()
+
+199041	msg	
+199046	msg	
+199052	log	1	0.60015	()	()
+
+199070	log	2	0.	(1028)	()
+
+199254	msg	
+199268	msg	
+199274	token	
+199290	log	3	0.	()	()
+
+199326	msg	
+199344	log	3	0.	()	()
+
+199697	msg	
+199708	token	
+200088	msg	
+200110	token	
+200147	msg	
+200190	process-running	
+200507	msg	
+200522	msg	
+200557	token	
+201040	msg	
+201261	token	
+201905	msg	
+202645	process-finished	
+202757	msg	
+205053	msg	
+205064	log	5	0.0665962	()	()
+
+205089	msg	
+205093	msg	
+205159	log	4	0.0735627	(1029)	()
+
+205111	log	3	0.	()	()
+
+201939	token	
+208959	msg	
+208970	log	1	0.661535	()	()
+
+208945	process-finished	
+209093	msg	
+209469	msg	
+209493	token	
+209525	msg	
+209546	log	2	0.159911	(1030)	()
+
+209893	msg	
+209917	token	
+210438	msg	
+210466	token	
+210942	msg	
+210971	token	
+212973	msg	
+213009	token	
+213438	msg	
+213502	token	
+213893	msg	
+213910	token	
+214728	msg	
+214758	token	
+214975	msg	
+214987	log	5	0.0563724	()	()
+
+215013	msg	
+215018	msg	
+215024	msg	
+215032	log	1	0.688597	()	()
+
+215039	log	3	0.	()	()
+
+215052	log	2	0.227081	(1030)	()
+
+215205	msg	
+215224	token	
+215245	msg	
+215275	log	4	0.0622695	(1029)	()
+
+215828	msg	
+215848	token	
+216280	msg	
+216291	token	
+216314	process-finished	
+216364	msg	
+216672	msg	
+216687	token	
+217065	msg	
+217094	token	
+217549	msg	
+218167	token	
+218823	msg	
+218855	token	
+219323	msg	
+219333	token	
+219726	msg	
+219743	token	
+220103	msg	
+220133	token	
+220603	msg	
+220622	token	
+221032	msg	
+221044	log	5	0.0518651	()	()
+
+221063	msg	
+221093	log	4	0.0572907	()	()
+
+221212	msg	
+221203	msg	
+221228	log	1	0.713495	()	()
+
+221251	log	2	0.28888	(1030)	()
+
+221306	msg	
+221332	token	
+221864	msg	
+221273	msg	
+221887	token	
+221891	log	3	0.	()	()
+
+222310	msg	
+222328	token	
+222704	msg	
+222739	token	
+223239	msg	
+223257	token	
+224066	msg	
+224086	token	
+224538	msg	
+224549	token	
+225001	msg	
+225018	token	
+225386	msg	
+225423	token	
+225902	msg	
+225920	token	
+226544	msg	
+226566	token	
+227020	msg	
+227041	token	
+227232	msg	
+227245	log	5	0.0477182	()	()
+
+227265	msg	
+227272	msg	
+227302	log	2	0.345738	(1030)	()
+
+227331	log	4	0.05271	()	()
+
+227266	msg	
+227484	log	3	0.	()	()
+
+227521	msg	
+227545	msg	
+227565	log	1	0.736403	()	()
+
+227582	token	
+227732	process-finished	
+227967	msg	
+227982	msg	
+228029	token	
+228491	msg	
+228509	token	
+228966	msg	
+228986	token	
+229409	msg	
+229420	token	
+229809	msg	
+229839	token	
+230238	msg	
+230268	token	
+230716	msg	
+230749	token	
+233309	msg	
+233320	log	5	0.0439029	()	()
+
+233320	msg	
+233363	log	4	0.128451	()	()
+
+237403	msg	
+237419	msg	
+237442	log	2	0.446179	()	()
+
+237446	log	1	0.77687	()	()
+
+237492	msg	
+237522	token	
+237490	msg	
+237972	msg	
+237994	token	
+238101	log	3	0.0799556	()	()
+
+238507	msg	
+238534	token	
+238977	msg	
+239036	token	
+239487	msg	
+239508	token	
+239954	msg	
+239992	token	
+240434	msg	
+240617	token	
+241046	msg	
+241064	token	
+241440	msg	
+241484	token	
+241938	msg	
+242164	token	
+243207	msg	
+243239	token	
+243448	msg	
+243458	msg	
+243493	log	3	0.153518	()	()
+
+243491	log	4	0.26225	()	()
+
+243479	msg	
+243538	msg	
+243564	log	5	0.037163	()	()
+
+243572	log	1	0.714755	()	()
+
+243709	msg	
+243722	token	
+243756	msg	
+243776	log	2	0.49046	()	()
+
+244184	msg	
+244224	token	
+244667	msg	
+244701	token	
+245232	msg	
+245347	token	
+246255	msg	
+246279	token	
+246897	msg	
+246932	token	
+247407	msg	
+247421	token	
+247891	msg	
+247921	token	
+248430	msg	
+248450	token	
+249474	msg	
+249496	log	5	0.0341916	()	()
+
+249533	msg	
+249577	log	4	0.375508	()	()
+
+249635	msg	
+249635	msg	
+249657	log	2	0.568684	()	()
+
+249673	log	1	0.758545	()	()
+
+249737	msg	
+249758	token	
+249762	msg	
+249791	log	3	0.221199	()	()
+
+250219	msg	
+250232	token	
+250695	msg	
+250728	token	
+251133	msg	
+251188	token	
+251666	msg	
+251688	token	
+252115	msg	
+252147	token	
+252575	msg	
+252597	token	
+253067	msg	
+253111	token	
+253693	msg	
+253766	token	
+254235	msg	
+254259	token	
+254897	msg	
+254941	token	
+255391	msg	
+255421	token	
+255649	msg	
+255682	log	5	0.0289426	()	()
+
+255689	msg	
+255691	msg	
+255699	msg	
+255721	log	3	0.203513	()	()
+
+255731	log	2	0.60317	()	()
+
+255729	log	4	0.42544	()	()
+
+255839	msg	
+255857	msg	
+255863	token	
+255874	log	1	0.777851	()	()
+
+256345	msg	
+256376	token	
+256862	msg	
+256883	token	
+257361	msg	
+257383	token	
+257825	msg	
+257836	token	
+258220	msg	
+258262	token	
+258679	msg	
+258709	token	
+259160	msg	
+259182	token	
+260037	msg	
+260057	token	
+260499	msg	
+260528	token	
+260930	msg	
+260957	token	
+261351	msg	
+261385	token	
+261703	msg	
+261715	log	5	0.0266285	()	()
+
+261748	msg	
+261771	msg	
+261773	log	2	0.634899	()	()
+
+261786	log	1	0.795613	()	()
+
+261891	msg	
+261919	log	4	0.471379	()	()
+
+261937	msg	
+261968	log	3	0.267197	()	()
+
+262411	msg	
+262629	token	
+264296	msg	
+264321	token	
+264761	msg	
+264798	token	
+265225	msg	
+265251	token	
+265616	msg	
+265674	token	
+266175	msg	
+266202	token	
+266628	msg	
+266649	token	
+267085	msg	
+267108	token	
+267569	msg	
+267616	token	
+267801	msg	
+267794	msg	
+267818	msg	
+267835	log	3	0.379695	()	()
+
+267852	msg	
+267865	log	4	0.513645	()	()
+
+267858	log	2	0.664091	()	()
+
+267868	log	1	0.811955	()	()
+
+268009	msg	
+268019	log	5	0.0244994	()	()
+
+268030	msg	
+268082	token	
+268537	msg	
+268582	token	
+269027	msg	
+269060	token	
+269512	msg	
+269523	token	
+269934	msg	
+269966	token	
+270360	msg	
+270390	token	
+270856	msg	
+270890	token	
+271740	msg	
+271773	token	
+272205	msg	
+272218	token	
+272625	msg	
+272653	token	
+273038	msg	
+273119	token	
+273580	msg	
+273608	token	
+273873	msg	
+273879	msg	
+273885	log	1	0.82699	()	()
+
+273879	msg	
+273918	log	2	0.690949	()	()
+
+273916	log	4	0.552532	()	()
+
+274043	msg	
+274067	msg	
+274064	token	
+274098	log	3	0.429292	()	()
+
+274523	msg	
+274535	token	
+276848	msg	
+276876	shutdown	
+279928	msg	
+279938	log	1	0.85355	()	()
+
+279920	msg	
+279958	msg	
+279971	log	3	0.474923	()	()
+
+279992	log	2	0.738394	()	()
+
+280853	msg	
+281078	shutdown	
+284881	msg	
+284902	shutdown	
+285967	msg	
+285977	log	1	0.86526	()	()
+
+288887	msg	
+288901	shutdown	
+298070	 	 	distributed system shutting down

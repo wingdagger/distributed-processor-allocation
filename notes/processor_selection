@@ -1,0 +1,56 @@
+Processor Selection
+===================
+
+
+Variables
+=========
+
+	- Load Average
+	- Amount of memory (free and total)
+	- Processor speed
+	- Processor architecture
+	- Information about the process to be run
+		* Memory and resource requirements
+		* Overhead of placement or migration
+	- Threshold (static or dynamic) (How to compute?)
+
+
+Scalar Priority Calculation
+===========================
+
+Weighted sum of values to produce a single value per processor
+
+
+procedure calculate_priority
+begin
+   for each processor in processor_list
+      begin
+	processor.priority <- ld_avg_wt * processor.load_avg +
+				mem_wt * processor.free_memory +
+				speed_wt * processor.speed
+      end
+end
+
+
+
+
+Algorithm
+=========
+
+function find_best_processor returns processor
+begin
+  if (local_load < threshold)
+     begin
+	return (LOCAL_PROCESSOR)
+     end
+  else
+     begin
+	filter (processor_list, processor_architecture_for_this_process)
+	filter (processor_list, memory_requirements_for_process)
+	calculate_priority (processor_list)
+	best_processor <- minimum (processor_list, priority)
+
+	return (best_processor)
+     end
+end
+	

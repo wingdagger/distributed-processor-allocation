@@ -1,0 +1,108 @@
+\begin{thebibliography}{LLM88}
+
+\bibitem[CJK95]{kali}
+H.~Cejtin, S.~Jagannathan, and R.~Kelsey.
+\newblock Higher-order distributed objects.
+\newblock {\em ACM Transactions on Programming Languages and Systems},
+  September 1995.
+
+\bibitem[CK87]{Casavant}
+Thomas~L. Casavant and Jon~G. Kuhl.
+\newblock Analysis of three dynamic distributed load-balancing strategies with
+  varying global information requirements.
+\newblock {\em 7th International Conference on Distributed Computing}, pages
+  185--192, 1987.
+
+\bibitem[ELZ86]{random_probe}
+D.L. Eager, E.D. Lazowska, and J.~Zahorjan.
+\newblock Adaptive load sharing in homogeneous distributed systems.
+\newblock {\em IEEE Transactions on Software Engineering}, pages 662--675, May
+  1986.
+
+\bibitem[Fuc95]{event_loop}
+M.~Fuchs.
+\newblock Escaping the event loop: an alternative control structure for
+  multi-threaded guis.
+\newblock {\em Engineering the Human Computer Interface}, pages 12--22, 1995.
+
+\bibitem[FYN88]{econ}
+Donald Ferguson, Yechiam Yemini, and Christos Nikolaou.
+\newblock Microeconomic algorithms for load balancing in distributed computer
+  systems.
+\newblock {\em 1988 IEEE 8th International Conference on Distributed Computing
+  Systems}, pages 491--499, 1988.
+
+\bibitem[HJ87]{Hac}
+Anna Hac and Xiaowei Jin.
+\newblock Dynamic load balancing in a distributed system using a decentralized
+  algorithm.
+\newblock {\em 7th International Conference on Distributed Computing}, 1987.
+
+\bibitem[HL96]{shared_queue}
+Babak Hamidzadeh and David~J. Lilja.
+\newblock Dynamic scheduling strategies for shared-memory multiprocessors.
+\newblock {\em 16th International Conference on Distributed Computing Systems},
+  pages 208--215, 1996.
+
+\bibitem[HS97]{condor_load}
+Chao-Ju Hou and Kang~G. Shin.
+\newblock Implementation of decentralized load sharing in networked
+  workstations using the condor package.
+\newblock {\em Journal of Parallel and Distributed Computing}, pages 173--183,
+  February 1997.
+
+\bibitem[KL88]{preempt}
+Phillipp Krueger and Miron Livny.
+\newblock A comparison of preemptive and non-preemptive load distributing.
+\newblock {\em 1988 IEEE 8th Int'l Conference on Distributed Computing
+  Systems}, pages 123--130, 1988.
+
+\bibitem[LLM88]{condor}
+Michael~J. Litzkow, Miron Livny, and Matt~W. Mutka.
+\newblock Condor - a hunter of idle workstations.
+\newblock {\em 1988 IEEE 8th Int'l Conference on Distributed Computing
+  Systems}, pages 104--111, 1988.
+
+\bibitem[ML87]{Mutka}
+M.W. Mutka and M.~Livny.
+\newblock Scheduling remote processor capacity in a workstation-processor bank
+  network.
+\newblock {\em Proceedings of the Seventh International Conference on
+  Distributed Computing Systems}, pages 2--9, 1987.
+
+\bibitem[PPTT]{plan9}
+Dave Presotto, Rob Pike, Ken Thompson, and Howard Trickey.
+\newblock Plan 9, a distributed system.
+\newblock {\em ftp://research.att.com:dist/plan9doc}.
+
+\bibitem[PTS88]{gradient}
+Spiridon Pulidas, Don Towsley, and John~A. Stankovic.
+\newblock Imbedding gradient estimators in load balancing algorithms.
+\newblock {\em 1988 IEEE 8th International Conference on Distributed Computing
+  Systems}, pages 482--489, 1988.
+
+\bibitem[Stu88]{stumm}
+M.~Stumm.
+\newblock The design and implementation of a decentralized scheduling facility
+  for a workstation cluster.
+\newblock {\em Proceedings of the 2nd IEEE Conference on Computer
+  Workstations}, pages 12--22, March 1988.
+
+\bibitem[Tan95]{Tanenbaum}
+Andrew~S. Tanenbaum.
+\newblock {\em Distributed Operating Systems}.
+\newblock Prentice Hall, Englewood Cliffs, NJ, 1995.
+
+\bibitem[TL88]{idle_workstations}
+Marvin~M. Theimer and Keith~A. Lantz.
+\newblock Finding idle machines in a workstation-based distributed system.
+\newblock {\em 1988 IEEE 8th Internationall Conference on Distributed Computing
+  Systems}, pages 112--122, 1988.
+
+\bibitem[WT80]{Wittie}
+L.D. Wittie and A.M.~Van Tilborg.
+\newblock Micros, a distributed operating system for micronet, a reconfigurable
+  network computer.
+\newblock {\em IEEE Transactions on Computing}, pages 1133--1144, 1980.
+
+\end{thebibliography}

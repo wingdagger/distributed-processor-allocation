@@ -1,0 +1,970 @@
+Time	Header		Machine	M-load	Jobs	Data
+	Usage Table
+=======	=======		=======	=======	=======	=======
+282225	 	 	distributed system started
+1895	processor	
+2779	processor	
+2798	msg	
+3469	processor	
+3503	msg	
+4805	processor	
+4838	msg	
+5783	processor	
+5828	msg	
+6201	processor	
+6221	msg	
+6471	msg	
+6486	process-create	
+6482	msg	
+6499	log	5	0.	()	()
+
+6530	msg	
+6535	msg	
+6541	log	1	0.	()	()
+
+6558	log	2	0.	()	()
+
+6517	msg	
+6795	msg	
+6832	msg	
+6856	msg	
+6884	log	4	0.	()	()
+
+6922	msg	
+6945	msg	
+6740	log	3	0.	()	()
+
+6951	process-running	
+12537	msg	
+12550	msg	
+12561	log	5	0.	(1001)	()
+
+12579	msg	
+12588	msg	
+12594	msg	
+12602	msg	
+12614	log	1	0.	()	()
+
+12613	log	4	0.	()	()
+
+12621	log	3	0.	()	()
+
+12630	log	2	0.	()	()
+
+15458	process-create	
+15483	msg	
+15500	msg	
+15587	msg	
+15628	msg	
+15639	process-running	
+18597	msg	
+18606	msg	
+18618	log	5	0.	(1001)	()
+
+18636	msg	
+18645	msg	
+18651	msg	
+18659	msg	
+18668	log	1	0.	()	()
+
+18684	log	2	0.	()	()
+
+18861	log	3	0.	()	()
+
+18864	log	4	0.	(1002)	()
+
+19211	process-create	
+19489	msg	
+19517	msg	
+19534	msg	
+19565	msg	
+19573	process-running	
+24657	msg	
+24675	msg	
+24686	log	5	0.	(1001)	()
+
+24704	msg	
+24713	msg	
+24719	msg	
+24727	msg	
+24737	log	1	0.	()	()
+
+24736	log	4	0.	(1002)	()
+
+24756	log	2	0.	()	()
+
+24743	log	3	0.	(1003)	()
+
+28849	process-create	
+28856	msg	
+28873	msg	
+28978	msg	
+29008	msg	
+29015	process-running	
+29307	process-finished	
+29323	msg	
+30726	msg	
+30736	msg	
+30747	log	5	0.	()	()
+
+30765	msg	
+30774	msg	
+30780	msg	
+30788	msg	
+30798	log	1	0.	()	()
+
+30804	log	3	0.	(1003)	()
+
+30798	log	4	0.	(1002)	()
+
+30818	log	2	0.	(1004)	()
+
+36398	process-create	
+36405	msg	
+36422	msg	
+36447	msg	
+36466	msg	
+36471	process-running	
+36787	msg	
+36812	msg	
+36823	log	5	0.	()	()
+
+36842	msg	
+36857	msg	
+36864	msg	
+36870	log	1	0.	(1005)	()
+
+36876	log	4	0.	(1002)	()
+
+36893	log	2	0.	(1004)	()
+
+38018	process-finished	
+38057	msg	
+36851	msg	
+38263	process-create	
+38288	log	3	0.	(1003)	()
+
+38318	msg	
+38347	msg	
+38410	msg	
+38430	msg	
+38435	process-running	
+41022	process-finished	
+41051	msg	
+42867	msg	
+42876	msg	
+42888	log	5	0.	()	()
+
+42905	msg	
+42916	msg	
+42922	msg	
+42930	msg	
+42939	log	1	0.	(1005 1006)	()
+
+42939	log	4	0.	()	()
+
+42958	log	2	0.	(1004)	()
+
+43540	log	3	0.	()	()
+
+48278	process-create	
+48285	msg	
+48302	msg	
+48313	msg	
+48332	msg	
+48337	process-running	
+48926	msg	
+48936	msg	
+48947	log	5	0.	(1007)	()
+
+48965	msg	
+48974	msg	
+48980	msg	
+48988	msg	
+48999	log	1	0.	(1005 1006)	()
+
+49006	log	3	0.	()	()
+
+49006	log	4	0.	()	()
+
+49014	log	2	0.	(1004)	()
+
+50510	process-finished	
+50539	msg	
+54987	msg	
+54996	msg	
+55008	log	5	0.	(1007)	()
+
+55024	msg	
+55034	msg	
+55040	msg	
+55048	msg	
+55058	log	1	0.	(1005 1006)	()
+
+55057	log	4	0.	()	()
+
+55073	log	3	0.	()	()
+
+55077	log	2	0.	()	()
+
+56317	process-create	
+56330	msg	
+56368	msg	
+56428	msg	
+56670	msg	
+56677	process-running	
+57847	process-finished	
+57863	msg	
+60697	process-finished	
+60713	msg	
+61045	msg	
+61055	msg	
+61066	log	5	0.	(1007)	()
+
+61084	msg	
+61100	msg	
+61107	msg	
+61113	log	1	0.	()	()
+
+61119	log	4	0.	()	()
+
+61135	log	2	0.	()	()
+
+61094	msg	
+61313	log	3	0.	(1008)	()
+
+63292	process-create	
+63302	msg	
+63923	msg	
+63997	msg	
+64037	msg	
+64047	process-running	
+66181	process-create	
+66191	msg	
+66219	msg	
+66307	msg	
+66499	msg	
+66510	process-running	
+67106	msg	
+67115	msg	
+67127	log	5	0.	(1007)	()
+
+67144	msg	
+67154	msg	
+67160	msg	
+67168	msg	
+67176	log	1	0.	()	()
+
+67193	log	2	0.	()	()
+
+67371	log	3	0.	(1008)	()
+
+67374	log	4	0.	(1009 1010)	()
+
+68688	process-create	
+68695	msg	
+68712	msg	
+68745	msg	
+68776	msg	
+68784	process-running	
+69827	process-finished	
+69843	msg	
+73165	msg	
+73178	msg	
+73189	log	5	0.	()	()
+
+73207	msg	
+73216	msg	
+73223	msg	
+73231	msg	
+73241	log	1	0.	()	()
+
+73241	log	4	0.	(1009 1010)	()
+
+73256	log	3	0.	(1008)	()
+
+73261	log	2	0.	(1011)	()
+
+75572	process-create	
+75585	msg	
+75613	msg	
+75630	msg	
+75661	msg	
+75668	process-running	
+77809	process-finished	
+77837	msg	
+79235	msg	
+79246	msg	
+79258	log	5	0.	()	()
+
+79275	msg	
+79284	msg	
+79290	msg	
+79298	msg	
+79310	log	1	0.	()	()
+
+79318	log	3	0.	()	()
+
+79318	log	4	0.	(1009 1010)	()
+
+79326	log	2	0.	(1011 1012)	()
+
+83694	process-create	
+83707	msg	
+83744	msg	
+83799	msg	
+83820	msg	
+83824	process-running	
+84559	process-finished	
+84597	msg	
+85296	msg	
+85306	msg	
+85317	log	5	0.	(1013)	()
+
+85335	msg	
+85344	msg	
+85350	msg	
+85358	msg	
+85368	log	1	0.	()	()
+
+85367	log	4	0.	(1010)	()
+
+85387	log	2	0.	(1011 1012)	()
+
+85382	log	3	0.	()	()
+
+87559	process-finished	
+87597	msg	
+88869	process-create	
+88876	msg	
+88893	msg	
+88972	msg	
+88991	msg	
+88996	process-running	
+89356	process-finished	
+89385	msg	
+91366	msg	
+91376	msg	
+91391	log	5	0.	(1013 1014)	()
+
+91405	msg	
+91416	msg	
+91422	msg	
+91430	log	1	0.	()	()
+
+91448	log	2	0.	(1012)	()
+
+91444	log	4	0.	()	()
+
+91608	msg	
+92018	log	3	0.	()	()
+
+97077	process-create	
+97103	msg	
+97120	msg	
+97140	msg	
+97159	msg	
+97164	process-running	
+97169	process-finished	
+97198	msg	
+97417	msg	
+97426	msg	
+97437	log	5	0.	(1013 1014)	()
+
+97455	msg	
+97464	msg	
+97470	msg	
+97478	msg	
+97488	log	1	0.	(1015)	()
+
+97487	log	4	0.	()	()
+
+97507	log	2	0.	()	()
+
+97494	log	3	0.	()	()
+
+103477	msg	
+103486	msg	
+103498	log	5	0.	(1013 1014)	()
+
+103515	msg	
+103524	msg	
+103531	msg	
+103538	msg	
+103548	log	1	0.	(1015)	()
+
+103548	log	4	0.	()	()
+
+103567	log	2	0.	()	()
+
+103749	log	3	0.	()	()
+
+104587	process-finished	
+104604	msg	
+105101	process-create	
+105111	msg	
+105139	msg	
+105224	msg	
+105452	msg	
+105460	process-running	
+108848	process-create	
+108867	msg	
+108884	msg	
+108914	msg	
+108945	msg	
+108952	process-running	
+109536	msg	
+109546	msg	
+109557	log	5	0.	(1014)	()
+
+109575	msg	
+109584	msg	
+109590	msg	
+109598	msg	
+109610	log	1	0.	(1015)	()
+
+109619	log	3	0.	(1016 1017)	()
+
+109618	log	4	0.	()	()
+
+109627	log	2	0.	()	()
+
+110277	process-finished	
+110293	msg	
+114017	process-create	
+114024	msg	
+114041	msg	
+114075	msg	
+114116	msg	
+114126	process-running	
+115596	msg	
+115606	msg	
+115620	log	5	0.	()	()
+
+115637	msg	
+115650	msg	
+115656	msg	
+115664	log	1	0.	(1015)	()
+
+115681	log	2	0.	()	()
+
+115679	log	4	0.	(1018)	()
+
+115645	msg	
+115862	log	3	0.	(1016 1017)	()
+
+117587	process-finished	
+117613	msg	
+120904	process-create	
+120917	msg	
+120954	msg	
+120977	msg	
+121018	msg	
+121028	process-running	
+121668	msg	
+121678	msg	
+121689	log	5	0.	()	()
+
+121706	msg	
+121716	msg	
+121722	msg	
+121730	msg	
+121739	log	1	0.0799556	()	()
+
+121739	log	4	0.	(1018 1019)	()
+
+121746	log	3	0.	(1016 1017)	()
+
+121760	log	2	0.	()	()
+
+126667	process-finished	
+126697	msg	
+127726	msg	
+127736	msg	
+127748	log	5	0.	()	()
+
+127926	process-create	
+127920	msg	
+127937	msg	
+127945	msg	
+127945	msg	
+127961	log	1	0.153518	()	()
+
+127960	log	4	0.	(1018 1019)	()
+
+127968	log	3	0.	(1017)	()
+
+127977	log	2	0.	()	()
+
+128001	msg	
+128039	msg	
+128099	msg	
+128130	msg	
+128138	process-running	
+129768	process-create	
+129775	msg	
+129792	msg	
+129876	msg	
+129907	msg	
+129915	process-running	
+130327	process-finished	
+131547	msg	
+131622	process-create	
+131632	msg	
+131660	msg	
+131678	msg	
+131709	msg	
+131716	process-running	
+133946	msg	
+133956	msg	
+133967	log	5	0.	()	()
+
+133986	msg	
+133995	msg	
+134000	msg	
+134008	msg	
+134022	log	1	0.283469	()	()
+
+134021	log	4	0.	(1018 1019)	()
+
+134029	log	3	0.	()	()
+
+134037	log	2	0.0799556	(1020 1021 1022)	()
+
+135579	process-finished	
+135619	msg	
+140006	msg	
+140015	msg	
+140027	log	5	0.	()	()
+
+140044	msg	
+140052	msg	
+140058	msg	
+140066	msg	
+140079	log	1	0.340759	()	()
+
+140087	log	3	0.	()	()
+
+140087	log	4	0.	(1019)	()
+
+140096	log	2	0.153518	(1020 1021 1022)	()
+
+141538	process-create	
+141545	msg	
+141562	msg	
+141590	msg	
+141617	msg	
+141622	process-running	
+143289	process-finished	
+143327	msg	
+146066	msg	
+146075	msg	
+146089	log	5	0.	()	()
+
+146107	msg	
+146116	msg	
+146122	msg	
+146130	msg	
+146139	log	1	0.393469	(1023)	()
+
+146155	log	2	0.301155	(1020 1021 1022)	()
+
+146333	log	4	0.	()	()
+
+146342	log	3	0.	()	()
+
+146428	process-create	
+146435	msg	
+146452	msg	
+146534	msg	
+146553	msg	
+146558	process-running	
+148806	process-finished	
+148836	msg	
+150472	process-create	
+150482	msg	
+150709	msg	
+150774	msg	
+150793	msg	
+150798	process-running	
+151517	process-finished	
+151549	msg	
+152135	msg	
+152148	msg	
+152160	log	5	0.	(1024 1025)	()
+
+152177	msg	
+152187	msg	
+152193	msg	
+152201	msg	
+152210	log	1	0.441965	(1023)	()
+
+152210	log	4	0.	()	()
+
+152217	log	3	0.0799556	()	()
+
+152240	log	2	0.357031	(1022)	()
+
+152336	process-finished	
+152365	msg	
+152598	process-create	
+152605	msg	
+152622	msg	
+152652	msg	
+152683	msg	
+152691	process-running	
+158196	msg	
+158205	msg	
+158217	log	5	0.	(1024 1025)	()
+
+158234	msg	
+158244	msg	
+158250	msg	
+158258	msg	
+158267	log	1	0.527633	(1023)	()
+
+158283	log	2	0.40844	()	()
+
+158461	log	3	0.153518	(1026)	()
+
+158463	log	4	0.	()	()
+
+161956	process-create	
+161969	msg	
+162005	msg	
+162066	msg	
+162292	msg	
+162299	process-running	
+162664	process-create	
+162677	msg	
+162714	msg	
+162774	msg	
+162808	msg	
+162815	process-running	
+163267	process-finished	
+163283	msg	
+164257	msg	
+164266	msg	
+164278	log	5	0.	(1024 1025)	()
+
+164295	msg	
+164304	msg	
+164311	msg	
+164318	msg	
+164328	log	1	0.565402	()	()
+
+164328	log	4	0.	()	()
+
+164334	log	3	0.221199	(1026 1027 1028)	()
+
+164348	log	2	0.499256	()	()
+
+167317	process-finished	
+167333	msg	
+169077	process-create	
+169084	msg	
+169104	msg	
+169116	msg	
+169135	msg	
+169139	process-running	
+170317	msg	
+170326	msg	
+170338	log	5	0.	(1025)	()
+
+170355	msg	
+170364	msg	
+170370	msg	
+170378	msg	
+170388	log	1	0.60015	(1029)	()
+
+170388	log	4	0.	()	()
+
+170394	log	3	0.340759	(1026 1027 1028)	()
+
+170408	log	2	0.539293	()	()
+
+172206	process-finished	
+172226	msg	
+174163	process-finished	
+174392	msg	
+176376	msg	
+176386	msg	
+176397	log	5	0.	()	()
+
+176413	msg	
+176424	msg	
+176430	msg	
+176438	msg	
+176447	log	1	0.632121	(1029)	()
+
+176447	log	4	0.	()	()
+
+176467	log	2	0.576129	()	()
+
+176462	log	3	0.393469	(1027 1028)	()
+
+177484	process-create	
+177497	msg	
+177534	msg	
+177557	msg	
+177599	msg	
+177610	process-running	
+182437	msg	
+182607	msg	
+182620	log	5	0.	()	()
+
+182633	msg	
+182640	msg	
+182645	msg	
+182652	msg	
+182664	log	1	0.661535	(1029)	()
+
+182672	log	3	0.441965	(1027 1028)	()
+
+182672	log	4	0.	(1030)	()
+
+182679	log	2	0.61002	()	()
+
+183124	process-finished	
+183153	msg	
+183886	process-finished	
+184112	msg	
+188647	msg	
+188656	msg	
+188667	log	5	0.	()	()
+
+188686	msg	
+188695	msg	
+188701	msg	
+188709	msg	
+188718	log	1	0.713495	(1029)	()
+
+188718	log	4	0.	(1030)	()
+
+188725	log	3	0.486583	()	()
+
+188739	log	2	0.641201	()	()
+
+190737	process-finished	
+190753	msg	
+194707	msg	
+194725	msg	
+194736	log	5	0.	()	()
+
+194754	msg	
+194769	msg	
+194776	msg	
+194783	log	1	0.736403	()	()
+
+194789	log	4	0.	(1030)	()
+
+194800	log	2	0.696283	()	()
+
+194763	msg	
+194974	log	3	0.527633	()	()
+
+198157	process-finished	
+198195	msg	
+200777	msg	
+200786	msg	
+200801	log	5	0.	()	()
+
+200819	msg	
+200828	msg	
+200834	msg	
+200842	msg	
+200852	log	1	0.757479	()	()
+
+200852	log	4	0.	()	()
+
+200867	log	3	0.60015	()	()
+
+200871	log	2	0.720567	()	()
+
+206838	msg	
+206858	msg	
+206869	log	5	0.	()	()
+
+206887	msg	
+206896	msg	
+206903	msg	
+206910	msg	
+206919	log	1	0.77687	()	()
+
+206934	log	4	0.	()	()
+
+206942	log	2	0.742909	()	()
+
+206934	log	3	0.632121	()	()
+
+212907	msg	
+212916	msg	
+212928	log	5	0.	()	()
+
+212945	msg	
+212954	msg	
+212961	msg	
+212968	msg	
+212983	log	1	0.79471	()	()
+
+212983	log	4	0.	()	()
+
+212999	log	2	0.763465	()	()
+
+212990	log	3	0.661535	()	()
+
+218967	msg	
+218976	msg	
+218988	log	5	0.	()	()
+
+219004	msg	
+219013	msg	
+219019	msg	
+219027	msg	
+219037	log	1	0.826226	()	()
+
+219037	log	4	0.	()	()
+
+219043	log	3	0.688597	()	()
+
+219057	log	2	0.782377	()	()
+
+225026	msg	
+225035	msg	
+225050	log	5	0.	()	()
+
+225068	msg	
+225077	msg	
+225084	msg	
+225091	msg	
+225101	log	1	0.84012	()	()
+
+225101	log	4	0.	()	()
+
+225107	log	3	0.713495	()	()
+
+225121	log	2	0.815786	()	()
+
+231086	msg	
+231095	msg	
+231106	log	5	0.	()	()
+
+231124	msg	
+231139	msg	
+231146	msg	
+231152	log	1	0.852904	()	()
+
+231158	log	4	0.	()	()
+
+231170	log	2	0.830515	()	()
+
+231133	msg	
+231350	log	3	0.757479	()	()
+
+237146	msg	
+237155	msg	
+237167	log	5	0.	()	()
+
+237184	msg	
+237198	msg	
+237205	msg	
+237212	log	1	0.864665	()	()
+
+237218	log	4	0.	()	()
+
+237234	log	2	0.844067	()	()
+
+237391	msg	
+237801	log	3	0.77687	()	()
+
+243205	msg	
+243215	msg	
+243226	log	5	0.	()	()
+
+243245	msg	
+243255	msg	
+243261	msg	
+243268	msg	
+243278	log	1	0.875486	()	()
+
+243278	log	4	0.	()	()
+
+243293	log	3	0.79471	()	()
+
+243297	log	2	0.856534	()	()
+
+249267	msg	
+249276	msg	
+249288	log	5	0.	()	()
+
+249305	msg	
+249321	msg	
+249328	msg	
+249334	log	1	0.894601	()	()
+
+249340	log	4	0.	()	()
+
+249352	log	2	0.878559	()	()
+
+249315	msg	
+249533	log	3	0.811124	()	()
+
+255327	msg	
+255339	msg	
+255350	log	5	0.	()	()
+
+255370	msg	
+255380	msg	
+255386	msg	
+255394	msg	
+255404	log	1	0.903028	()	()
+
+255403	log	4	0.	()	()
+
+255410	log	3	0.826226	()	()
+
+255424	log	2	0.888269	()	()
+
+258090	msg	
+258092	shutdown	
+261402	msg	
+261414	log	5	0.	()	()
+
+261432	msg	
+261441	msg	
+261447	msg	
+261455	msg	
+261463	log	1	0.910781	()	()
+
+261477	log	4	0.	()	()
+
+261488	log	2	0.897202	()	()
+
+261665	log	3	0.852904	()	()
+
+262114	msg	
+262125	shutdown	
+266154	msg	
+266179	shutdown	
+267479	msg	
+267483	msg	
+267501	log	1	0.917915	()	()
+
+267674	log	2	0.905422	()	()
+
+267474	msg	
+268085	log	3	0.864665	()	()
+
+270177	msg	
+270195	shutdown	
+273507	msg	
+273512	msg	
+273519	log	1	0.930517	()	()
+
+273535	log	2	0.912984	()	()
+
+274206	msg	
+274225	shutdown	
+278214	msg	
+278225	shutdown	
+283645	 	 	distributed system shutting down

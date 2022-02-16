@@ -1,0 +1,13 @@
+Message Type Counts for /home/stu93/allen/thesis/testing/random-dpa/quasi/test-scalability/c1/iter1
+
+
+Message Type	 Count
+------------	 -----
+accept	30
+add-processor	1
+create	30
+done	30
+log	333
+request	54
+shutdown	1
+update	30

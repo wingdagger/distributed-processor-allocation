@@ -1,0 +1,12 @@
+#!/bin/zsh
+
+bindir="/home/allen/thesis/implementation/test_processes"
+$bindir/cpu_i386 $1
+# if [ $OSTYPE = "linux" -o \
+#      $OSTYPE = "Linux" ]; then
+# 	$bindir/cpu_i386 $1
+# elif [ $OSTYPE = "solaris2.5" ]; then
+# 	$bindir/cpu_sparc $1
+# else
+# 	echo "Unknown OSTYPE in cpu" >! /tmp/ds-errs
+# fi

@@ -1,0 +1,57 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;;  Autoload the following files
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; configuration info
+
+;;(load "~/thesis/implementation/config.scm")
+
+;; For mailboxes
+
+;;(load "~/lib/scm/mailbox.scm")
+
+;; Utilities
+
+;;(load "~/thesis/implementation/utils.scm")
+
+;; Mail Procedures
+
+;;(load "~/thesis/implementation/mail.scm")
+
+;; object definitions
+
+;;(load "~/thesis/implementation/objects.scm")
+
+;; for logging during execution and conversion to readable format
+
+;;(load "~/thesis/implementation/logging.scm")
+
+;; load performance measurements procedures
+
+;;(load "~/thesis/implementation/stats.scm")
+
+;; debugging procedures
+
+;;(load "~/thesis/implementation/debug.scm")
+
+;; Load test cases
+
+;;(load "~/thesis/implementation/tests.scm")
+
+;; Load misc
+
+;;(load "~/thesis/implementation/misc.scm")
+
+;; usage table
+
+;;(load "~/thesis/implementation/usage-table.scm")
+
+;; For procedures that are different in the distributed implementation
+
+;;(load "~/thesis/implementation/distrib.scm")
+
+
+
+

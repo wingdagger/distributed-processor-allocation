@@ -1,0 +1,12 @@
+Message Type Counts for /home/stu93/allen/thesis/testing/centralized/quasi/testb/iter1
+
+
+Message Type	 Count
+------------	 -----
+accept	30
+add-processor	5
+create	60
+done	30
+log	246
+request	30
+shutdown	6

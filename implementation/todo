@@ -1,0 +1,152 @@
+To Do List (03/10/98)
+=====================
+
+- Run test cases (3/16/98)
+
+- Tabulate results (3/16/98)
+
+- Write up results (3/31/98)
+
+- Finish thesis rough draft (3/31/98)
+
+- Defend thesis (4/03/98)
+
+- Complete final draft
+
+- Turn in final draft
+
+? Add process migration functionality to simulation and quasi-simulation
+
+? In forward-token, the processor-list is always obtained using encap
+from processor 0.  Instead, we should change back to using the local
+processor's processor list.
+
+? Write get-message-size
+
+? More update algorithms for random-dpa
+
+? Write a test procedure that introduces N processes into a system of
+M processors.  Measure total time it takes the N processors to
+finish. This can be implemented with an encap-ed semaphore that get
+incremented when a process is created and gets decremented as
+processes finish.  When the first process is created, the time is
+recorded and semaphore initialized.  When the semaphore returns to 0,
+the finish time is recorded.  Ideally, as M increases, the total
+execuation time should decrease.  This is good indicator of
+performance gains of LB and to show scalability of the DS.
+
++ Discuss results with mb (3/17/98)
+
++ Construct test cases
+
++ Address performance issue with simulated token.  (need only 1 sched).
+
++ Fix problem with up-down algorithm where all new processes created
+on machine with lowest load go there indefinitely until a new process
+is created elsewhere.
+
++ Determine why new token is being generated.  I think it's because of
+the performance issues associated with the token algorithm.  Fix that
+and it will probably fix this.
+
++ Fix intermittent bug in random-dpa algorithm
+
++ Test out distributed quasi-simulation and full-implementation
+
++ Uncomment watch-for-dead-coordinator
+
++ In receive-token
+      ;; this processor list should be the local one NOT the global one
+      ;; this may create inconsistencies in the order of processor lists.
+      
+      ;; instead we might want to use an encap or proxy-value procedure to
+      ;;  get the global definition of processor list.  That way everyone
+      ;;  sees a consistent order.  WE HAVE TO MAINTAIN A CONSISTENT ORDER
+      ;;  in order to have a LOGICAL RING
+
+
++ Make a list of all threads that are running on a processor
+
++ In receive-token, I need to change the procedure from using the
+global processor-list to the local one 
+
++ Modify the following functions to handle the new log data type:
+
++	get-usage-info
++	create-log-entry-list
++	receive-requests-primitive (all main files)
++	anywhere create-log-entry is called
+
+
++ Determine how to plot hop-count, num-remote-jobs, etc.
+
++ Add stat generation for msgs and processes in scm
+
++ Write awk,perl, etc. utilities to deal with stats.
+
++ Write log-entry construction from list routine
+
++ Determine how to get thread load and OS load.  If thread load is not
+implemented in kali, either needed to define a way to get from the
+kali system or implement a way to get from the ds system.  OS load can
+be gotten by running w (if on linux, can read from file in proc/).
+
++ See how load is calculated in UNIX
+
++  Fault Tolerance
+   +  write token and ring management procedures for token
+
+   +  When shutting down a processor, need a way to delete that processor from
+      the usage tables of all other processors.  
+
+       1 + send a mesg. to all processors
+
+       2 + when sending a mesg to a processor, if a reply is not received in
+           delta T time, then remove that processor from usage table.
+           The problem with this approach is that if A -> B -> C, and
+           C is down, then if A and B have the same timeout, A will
+           timeout before B, thinking that B is down, when in fact C
+           is down and B just needs more time because it has to let C
+           timeout before it can send a message back to A.  However,
+           when B does finally reply to A, A can put B back into its
+           usage table.
+
+    + Add message timeouts to token and random-dpa
+
++ Add fault tolerance to centralized algorithm if not moved to Up/Down
+
++ Remove memory check in processor allocation
+
++ Move centralized algorithm to Mutka/Livny Up-Down algorithm
+
++ Number of remote jobs is not being set for centralized algorithm
+    (this might be tricky)
+
++  For process migration, a thread gets added to a processor's process
+table whenever it starts execution on a system.  A process runs every
+$n$ seconds on each processor that determines whether to migrate
+threads.  If so, the thread migrator picks a thread from the process
+table, suspends it, offloads it, and sets the threads placeholder so
+that the managing thread knows to clean up.  The process table
+contains the thread, the orginating machine, the machine that last
+owned the thread, and a migration count.  
+
++ When a process gets migrated, the migrating thread needs to set the
+last-owner, thread and increment the migration count.  It also needs
+the set the placeholder to 'MIGRATED and create a log entry.
+
+
++ Convert simulation to quasi-simulation
+
++ Convert quasi-simulation to real-implementation
+
++ Write interactive process in scm
+
++ Write interactive process in c
+
++ Write i/o process (disk) in scm
+
++ Write i/o process (disk) in c
+
+
+

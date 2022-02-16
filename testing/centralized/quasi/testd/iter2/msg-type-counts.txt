@@ -1,0 +1,12 @@
+Message Type Counts for /home/stu93/allen/thesis/testing/centralized/quasi/testd/iter2
+
+
+Message Type	 Count
+------------	 -----
+accept	50
+add-processor	5
+create	100
+done	47
+log	540
+request	50
+shutdown	5

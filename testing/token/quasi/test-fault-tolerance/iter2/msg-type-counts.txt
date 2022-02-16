@@ -1,0 +1,14 @@
+Message Type Counts for /home/stu93/allen/thesis/testing/token/quasi/test-fault-tolerance/iter2
+
+
+Message Type	 Count
+------------	 -----
+accept	25
+add-processor	15
+create	30
+done	20
+log	319
+remove-processor	4
+request	25
+shutdown	4
+token	59

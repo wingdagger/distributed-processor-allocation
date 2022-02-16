@@ -1,0 +1,14 @@
+Hop Count Statistics for /home/stu93/allen/thesis/testing/centralized/full/testb/iter3/process-hop-counts.ds
+-----------------------------------------
+Total messages: 30
+Average hop count: 3
+Standard Deviation of hop count: 0
+
+
+
+-------------------- Hop count data -----------------
+
+
+Num Hops	 Number of processes
+--------	 -------------------
+3	30

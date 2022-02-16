@@ -1,0 +1,58 @@
+\documentclass{slides}
+%\usepackage{times}
+\usepackage{xspace}
+\usepackage{graphics}
+\usepackage{here}
+\usepackage{bar}
+\usepackage{shadow}
+\usepackage{boxedminipage}
+\usepackage{tabularx}
+\usepackage{portland}
+
+
+\newcommand{\algtbl}[6]{
+%\center{\textbf{#6}}
+
+\begin{center}
+\textbf{#1}
+\end{center}
+
+\begin{tabularx}{\linewidth}{|X|X|X|X|} \hline
+	& \textbf{Q-learning} & \textbf{Centralized} & \textbf{Token} \\ \hline
+	#2
+\end{tabularx}
+
+\begin{center}
+\textbf{#3}
+\end{center}
+
+\begin{tabularx}{\linewidth}{|X|X|X|X|} \hline
+	& \textbf{Q-learning} & \textbf{Centralized} & \textbf{Token} \\ \hline
+	#4
+\end{tabularx}
+
+\vspace{1em}
+\line(1,0){50} \\
+#5
+}
+
+
+
+\begin{document}
+
+\landscape
+
+\algtbl{Random Creation Interval between 0.5 and 10 seconds.}
+{	Avg.\ Load Avg.\ & 1.361 & 1.968 & 2.380 \\ \hline
+	Avg.\ Max.\ Unfairness & 2.513 & 2.104 & 4.578 \\ \hline
+	Avg.\ Std.\ Dev.\ & 0.840 & 0.671 & 1.488 \\ \hline}
+{Fixed Creation Interval of 15 seconds}
+{	Avg.\ Load Avg.\ & 0.375 & 0.838 & 1.276 \\ \hline
+	Avg.\ Max.\ Unfairness & 0.648 & 1.283 & 1.705 \\ \hline
+	Avg.\ Std.\ Dev.\ & 0.210 & 0.388 & 0.542 \\ \hline}
+{Quasi-simulation environment, 5 processors, 30 processes with a random mix
+of all process types.}
+{Comparison of Process Creation Interval}
+
+
+\end{document}

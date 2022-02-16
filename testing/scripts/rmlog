@@ -1,0 +1,6 @@
+#!/bin/zsh
+
+foreach f in `find $1 -name "*logfile*" -print`; do
+   echo removing $f
+   rm -f $f
+done

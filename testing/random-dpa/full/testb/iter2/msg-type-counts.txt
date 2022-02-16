@@ -1,0 +1,13 @@
+Message Type Counts for /home/stu93/allen/thesis/testing/random-dpa/full/testb/iter2
+
+
+Message Type	 Count
+------------	 -----
+accept	30
+add-processor	15
+create	30
+done	30
+log	210
+request	44
+shutdown	4
+update	30

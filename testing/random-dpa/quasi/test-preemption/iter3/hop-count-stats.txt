@@ -1,0 +1,18 @@
+Hop Count Statistics for /home/stu93/allen/thesis/testing/random-dpa/quasi/test-preemption/iter3/process-hop-counts.ds
+-----------------------------------------
+Total messages: 50
+Average hop count: 2.98
+Standard Deviation of hop count: 1.176
+
+
+
+-------------------- Hop count data -----------------
+
+
+Num Hops	 Number of processes
+--------	 -------------------
+2	30
+3	8
+4	5
+5	2
+7	5

@@ -1,0 +1,12 @@
+Variables
+
+	- Load Average
+	- Amount of memory (free and total)
+	- Processor speed
+	- Processor architecture
+	- Information about the process to be run
+		* Memory and resource requirements
+		* Overhead of placement or migration
+	- Threshold (static or dynamic) (How to compute?)
+
+

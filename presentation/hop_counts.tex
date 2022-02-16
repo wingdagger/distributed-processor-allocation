@@ -1,0 +1,69 @@
+\documentclass{slides}
+%\usepackage{times}
+\usepackage{xspace}
+\usepackage{graphics}
+\usepackage{here}
+\usepackage{bar}
+\usepackage{shadow}
+\usepackage{boxedminipage}
+\usepackage{tabularx}
+
+
+\newcommand{\hopcountbar}[3]{
+\begin{center}
+\textbf{#1}
+\end{center}
+
+\begin{barenv}
+\setdepth{10} % 3-D effect
+\setstretch{1.4} % stretch y-dimension
+\setnumberpos{up} % number above bars
+\setxaxis{1}{7}{1}\setxname{Hop Count}
+\setyaxis{0}{50}{10}\setyname{No.}
+#2
+\end{barenv}
+
+\vspace{1em}
+\line(1,0){50} \\
+#3
+}
+
+
+\begin{document}
+
+\title{Process Creation Request Hop Counts}
+
+
+
+\hopcountbar{Hop Counts for Q-learning Algorithm}
+{\bar{0}{1}
+\bar{28}{2}
+\bar{7}{3}
+\bar{3}{4}
+\bar{2}{5}
+\bar{1}{6}
+\bar{9}{7}}
+{Q-learning algorithm in quasi-simulation environment.  5 processors, 50
+processes of mixed process types.  Average of 3 iterations}
+
+
+
+\hopcountbar{Hop Counts for Centralized Algorithm}
+{\bar{0}{1}
+\bar{0}{2}
+\bar{50}{3}}
+{Centralized algorithm in quasi-simulation environment.  5 processors, 50
+processes of mixed process types}
+
+
+
+\hopcountbar{Hop Counts for Token-based Algorithm}
+{\bar{0}{1}
+\bar{50}{2}}
+{Token-based algorithm in quasi-simulation environment.  5 processors, 50
+processes of mixed process types}
+
+
+
+
+\end{document}
